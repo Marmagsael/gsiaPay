@@ -1,0 +1,51 @@
+PROCEDURE MinimumNet
+SELECT xcurpaylst
+GOTO TOP
+SCAN
+     cempnumber = ALLTRIM(xcurpaylst.empnumber)
+     cempname 	= ALLTRIM(xcurpaylst.name)
+     
+     payroll3.grdpayrolldtls.afterrowcolchange
+     payroll3.grdpayrolldtls.refresh
+     
+     SELECT xpayearnings
+     SUM amt TO ngross 
+     SELECT xpaydeductions
+     SUM amt TO ntotalded 
+     nnetpay = ngross - ntotalded
+     
+     IF nnetpay < 500
+          nmsg = 0
+          IF nmsg == 7
+               RETURN
+          ELSE
+               SELECT a.*,  b.dedsort  ;
+                      FROM  xPaydeductions  a ; 
+                      LEFT JOIN curCOA b ON  ALLTRIM(a.acctcd) ==  ALLTRIM(b.acctnumber)  ;
+                      INTO CURSOR  curTmp
+                      
+               SELECT * FROM  curTmp  ORDER BY  dedsort  DESC INTO  CURSOR  curTmp
+               
+               SELECT curtmp
+               GOTO TOP
+               SCAN FOR amt > 0
+               
+                    cacctcd = ALLTRIM(curtmp.acctcd)
+                    IF ALLTRIM(cacctcd) ==  'D001'  .OR.  ;
+                       ALLTRIM(cacctcd) ==  'D002'  .OR.  ;
+                       ALLTRIM(cacctcd) ==  'D003'  .OR.  ;
+                       ALLTRIM(cacctcd) ==  'D004'
+                       
+                    ELSE
+                         namt = curtmp.amt
+                         IF nnetpay <  500
+                              SELECT xcurpaylst
+                              REPLACE &cacctcd WITH 0
+                              nnetpay =  nnetpay +  namt
+                         ENDIF
+                    ENDIF
+               ENDSCAN
+               
+          ENDIF
+     ENDIF
+ENDSCAN

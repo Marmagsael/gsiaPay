@@ -1,0 +1,12 @@
+REPORT FORM   rptBankAdvise13   PREVIEW TO   PRINTER PROMPT   NODIALOG FOR    .NOT.   ALLTRIM(NVL(acctcode,   '')) == ''
+Error in line 75 of Frm12.Scmdprint1.Click (record 6): Missing comma (,).
+REPORT FORM   rptCashBasis13   PREVIEW TO   PRINTER PROMPT   NODIALOG FOR   ALLTRIM(NVL(acctcode,   '')) == ''
+Error in line 82 of Frm12.Scmdprint1.Click (record 6): Missing comma (,).
+REPORT FORM   rptBankAdvise132   PREVIEW TO   PRINTER PROMPT   NODIALOG FOR    .NOT.   ALLTRIM(NVL(acctcode,   '')) == ''
+Error in line 91 of Frm12.Scmdprint1.Click (record 6): Missing comma (,).
+REPORT FORM   rptCashBasis132   PREVIEW TO   PRINTER PROMPT   NODIALOG FOR   ALLTRIM(NVL(acctcode,   '')) == ''
+Error in line 98 of Frm12.Scmdprint1.Click (record 6): Missing comma (,).
+REPORT FORM   rptCashBasis13   PREVIEW TO   PRINTER PROMPT   NODIALOG
+Error in line 106 of Frm12.Scmdprint1.Click (record 6): Missing comma (,).
+REPORT FORM   rptCashBasis132   PREVIEW TO   PRINTER PROMPT   NODIALOG
+Error in line 112 of Frm12.Scmdprint1.Click (record 6): Missing comma (,).

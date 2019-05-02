@@ -1,0 +1,483 @@
+
+Structure for table:    D:\ARTSIS\GSIA\PIS\AREA.DBF
+Number of data records: 20      
+Date of last update:    06/14/04
+Code Page:              0       
+Field  Field Name      Type                Width    Dec   Index   Collate Nulls    Next    Step
+    1  AREACODE        Character               5                             No
+    2  AREANAME        Character              20                             No
+** Total **                                   26
+
+Structure for table:    D:\ARTSIS\GSIA\PIS\CIVSTAT.DBF
+Number of data records: 4       
+Date of last update:    07/21/03
+Code Page:              0       
+Field  Field Name      Type                Width    Dec   Index   Collate Nulls    Next    Step
+    1  CODE            Character               1                             No
+    2  NAME            Character              10                             No
+** Total **                                   12
+
+Structure for table:    D:\ARTSIS\GSIA\PIS\COLLEGE.DBF
+Number of data records: 9       
+Date of last update:    04/08/03
+Code Page:              0       
+Field  Field Name      Type                Width    Dec   Index   Collate Nulls    Next    Step
+    1  CODE            Character               8                             No
+    2  NAME            Character              15                             No
+** Total **                                   24
+
+Structure for table:    D:\ARTSIS\GSIA\PIS\DATABAGS.DBF
+Number of data records: 19      
+Date of last update:    10/02/02
+Code Page:              437     
+Field  Field Name      Type                Width    Dec   Index   Collate Nulls    Next    Step
+    1  BAGNAME         Character               8                             No
+    2  OBJECT          Character              25                             No
+    3  RDD             Character               6                             No
+** Total **                                   40
+
+Structure for table:    D:\ARTSIS\GSIA\PIS\DATADICT.DBF
+Number of data records: 150     
+Date of last update:    05/31/02
+Code Page:              0       
+Field  Field Name      Type                Width    Dec   Index   Collate Nulls    Next    Step
+    1  FLD_NAME        Character              10                             No
+    2  FLD_TYPE        Character               1                             No
+    3  FLD_WIDTH       Numeric                 5                             No
+    4  FLD_DEC         Numeric                 2                             No
+    5  FLD_DESC        Character              30                             No
+    6  FLD_BRWMSG      Character              60                             No
+    7  HIDDEN          Logical                 1                             No
+    8  BAGNAME         Character               8                             No
+** Total **                                  118
+
+Structure for table:    D:\ARTSIS\GSIA\PIS\DATAORDS.DBF
+Number of data records: 30      
+Date of last update:    05/30/03
+Code Page:              437     
+Field  Field Name      Type                Width    Dec   Index   Collate Nulls    Next    Step
+    1  BAGNAME         Character               8                             No
+    2  TAGNAME         Character               8                             No
+    3  TAGKEY          Character              60                             No
+    4  TAGDESCEND      Logical                 1                             No
+** Total **                                   78
+
+Structure for table:    D:\ARTSIS\GSIA\PIS\DEVDATA.DBF
+Number of data records: 89      
+Date of last update:    02/10/05
+Code Page:              0       
+Field  Field Name      Type                Width    Dec   Index   Collate Nulls    Next    Step
+    1  DEV_NO          Character              10                             No
+    2  DEV_NAME        Character              40                             No
+    3  DEV_TYPE        Character               1                             No
+    4  DEV_LEVEL       Character               1                             No
+    5  DEV_PARENT      Character              10                             No
+** Total **                                   63
+
+Structure for table:    D:\ARTSIS\GSIA\PIS\DEVNUM.DBF
+Number of data records: 864     
+Date of last update:    04/26/07
+Code Page:              0       
+Field  Field Name      Type                Width    Dec   Index   Collate Nulls    Next    Step
+    1  CONTROL_NO      Character              10                             No
+** Total **                                   11
+
+Structure for table:    D:\ARTSIS\GSIA\PIS\DEVTRAN.DBF
+Number of data records: 864     
+Date of last update:    04/26/07
+Code Page:              0       
+Field  Field Name      Type                Width    Dec   Index   Collate Nulls    Next    Step
+    1  CONTROL_NO      Character              10                             No
+    2  PREP_BY         Character              10                             No
+    3  PREP_DT         Date                    8                             No
+    4  CLNUMBER        Character               5                             No
+    5  EMPNUMBER       Character               5                             No
+    6  DEV_NO          Character              10                             No
+    7  OCCUR_DT        Date                    8                             No
+    8  FREQ_NO         Character               1                             No
+    9  PENALTY_NO      Character               2                             No
+   10  APPR_BY         Character              10                             No
+   11  APPR_DT         Date                    8                             No
+** Total **                                   78
+
+Structure for table:    D:\ARTSIS\GSIA\PIS\DRUGTEST.DBF
+Number of data records: 0       
+Date of last update:    07/16/03
+Code Page:              0       
+Field  Field Name      Type                Width    Dec   Index   Collate Nulls    Next    Step
+    1  EMPNUMBER       Character               5                             No
+    2  DRUTAKEN        Date                    8                             No
+    3  DRUEXPIRE       Date                    8                             No
+    4  DRUCENTER       Character              30                             No
+    5  DRUREMARK       Character              20                             No
+** Total **                                   72
+
+Structure for table:    D:\ARTSIS\GSIA\PIS\EDUCATE.DBF
+Number of data records: 398     
+Date of last update:    11/18/03
+Code Page:              0       
+Field  Field Name      Type                Width    Dec   Index   Collate Nulls    Next    Step
+    1  EMPNUMBER       Character               5                             No
+    2  CODE            Character               1                             No
+    3  SCHOOL          Character              30                             No
+    4  FROM            Character              10                             No
+    5  TO              Character              10                             No
+    6  COURSE          Character              25                             No
+    7  LEVEL           Character               8                             No
+** Total **                                   90
+
+Structure for table:    D:\ARTSIS\GSIA\PIS\EMERGENC.DBF
+Number of data records: 1058    
+Date of last update:    11/18/03
+Code Page:              0       
+Field  Field Name      Type                Width    Dec   Index   Collate Nulls    Next    Step
+    1  EMPNUMBER       Character               5                             No
+    2  NAME            Character              25                             No
+    3  ADDR            Character              60                             No
+    4  RELA            Character              20                             No
+    5  TEL             Character              15                             No
+** Total **                                  126
+
+Structure for table:    D:\ARTSIS\GSIA\PIS\EMPLOY.DBF
+Number of data records: 1594    
+Date of last update:    11/18/03
+Code Page:              0       
+Field  Field Name      Type                Width    Dec   Index   Collate Nulls    Next    Step
+    1  EMPNUMBER       Character               5                             No
+    2  COMP            Character              60                             No
+    3  ADDR1           Character              60                             No
+    4  ADDR2           Character              60                             No
+    5  TEL             Character              15                             No
+    6  POSI            Character              30                             No
+    7  FROM            Character              10                             No
+    8  TO              Character              10                             No
+    9  SAL             Numeric                10      2                      No
+   10  REM1            Character              60                             No
+   11  REM2            Character              60                             No
+** Total **                                  381
+
+Structure for table:    D:\ARTSIS\GSIA\PIS\EMPMAS.DBF
+Number of data records: 1733    
+Date of last update:    11/18/03
+Code Page:              0       
+Field  Field Name      Type                Width    Dec   Index   Collate Nulls    Next    Step
+    1  EMPNUMBER       Character               5                             No
+    2  EMPLASTNM       Character              15                             No
+    3  EMPFIRSTNM      Character              15                             No
+    4  EMPMIDNM        Character              15                             No
+    5  EMPALIAS        Character              15                             No
+    6  CLIENT          Character               5                             No
+    7  CLIENT_         Character               5                             No
+    8  BASICRATE       Character               9                             No
+    9  PAYTYPE         Character               1                             No
+   10  ADMIN           Logical                 1                             No
+   11  CASHBOND        Numeric                 7      2                      No
+   12  WORKDAYS        Numeric                 3                             No
+   13  ALLOWRATE       Numeric                 9      2                      No
+   14  ALLOWTYPE       Character               1                             No
+   15  ALLOWFIX        Logical                 1                             No
+   16  ALLOW2RATE      Numeric                 9      2                      No
+   17  ALLOW2TYPE      Character               1                             No
+   18  ALLOW2FIX       Logical                 1                             No
+   19  ALLOW3RATE      Numeric                 9      2                      No
+   20  ALLOW3TYPE      Character               1                             No
+   21  ALLOW3FIX       Logical                 1                             No
+   22  ALLOW4RATE      Numeric                 9      2                      No
+   23  ALLOW4TYPE      Character               1                             No
+   24  ALLOW4FIX       Logical                 1                             No
+   25  MOVNUMBER       Character              10                             No
+   26  MOVMODE         Character               1                             No
+   27  MOVDATE         Date                    8                             No
+   28  POSTMAS_        Character               6                             No
+   29  DUTYDATE        Date                    8                             No
+   30  ADDR1           Character              60                             No
+   31  MLACODE_        Character               5                             No
+   32  TEL1            Character              15                             No
+   33  ADDR2           Character              60                             No
+   34  PROCODE_        Character               5                             No
+   35  TEL2            Character              15                             No
+   36  EMPBIRTH        Date                    8                             No
+   37  BIRTHPLACE      Character              30                             No
+   38  SEX_            Character               1                             No
+   39  CIVSTAT_        Character               1                             No
+   40  CITIZEN         Character              15                             No
+   41  HEIGHT          Numeric                 6      4                      No
+   42  WEIGHT          Numeric                 6      2                      No
+   43  TIN             Character              11                             No
+   44  SSS             Character              12                             No
+   45  HDMF            Character              12                             No
+   46  RELIGION        Character              15                             No
+   47  HAIR            Character               5                             No
+   48  EYES            Character               5                             No
+   49  SPOUSE          Character              25                             No
+   50  OCCUPATION      Character              15                             No
+   51  NOCHILDREN      Numeric                 2                             No
+   52  DATEHIRED       Date                    8                             No
+   53  SEPARATE        Date                    8                             No
+   54  POSITION_       Character               5                             No
+   55  EMPSTAT_        Character               1                             No
+   56  STATUSDATE      Date                    8                             No
+   57  SECLICENSE      Character              15                             No
+   58  LICEXPIRE       Date                    8                             No
+   59  TRAINAT         Character              30                             No
+   60  DATETRAIN       Date                    8                             No
+   61  INSURANCE       Character              20                             No
+   62  POLICYNO        Character              15                             No
+   63  FACEVALUE       Numeric                 9      2                      No
+   64  PREMIUM         Numeric                 6      2                      No
+   65  INSEXPIRE       Date                    8                             No
+   66  EXMILITARY      Logical                 1                             No
+   67  ROTC            Logical                 1                             No
+   68  ELLEVEL         Character               8                             No
+   69  HSLEVEL         Character               8                             No
+   70  COLLEGE_        Character               8                             No
+   71  COURSE          Character              25                             No
+   72  VOLEVEL         Character               8                             No
+   73  VOCOURSE        Character              25                             No
+   74  LANGUAGE        Character              15                             No
+   75  SKILL1          Character               2                             No
+   76  SKILL2          Character               2                             No
+   77  SKILL3          Character               2                             No
+   78  SKILL4          Character               2                             No
+   79  TAXCODE         Character               3                             No
+   80  ACCTCODE        Character              15                             No
+   81  AWOL            Character               6                             No
+   82  DISMISS         Character               6                             No
+   83  ASTART          Date                    8                             No
+   84  AEND            Date                    8                             No
+   85  ADAYS           Numeric                 2                             No
+   86  DSTART          Date                    8                             No
+   87  DEND            Date                    8                             No
+   88  DDAYS           Numeric                 2                             No
+   89  EMRNAME         Character              25                             No
+   90  EMRTEL          Character              15                             No
+   91  EMRADDR         Character              60                             No
+   92  GUARDEXP        Numeric                 5      2                      No
+   93  COMTAXNO        Character              10                             No
+   94  COMTAXDATE      Date                    8                             No
+   95  COMTAX_AT       Character              30                             No
+   96  BLOODTYPE       Character              10                             No
+   97  MARKS           Character              60                             No
+   98  COMPLEXION      Character              10                             No
+   99  EXP_NBI         Date                    8                             No
+  100  EXP_POLICE      Date                    8                             No
+  101  EXP_PNP         Date                    8                             No
+  102  EXP_BRGY        Date                    8                             No
+  103  EXP_COURT       Date                    8                             No
+  104  EXP_NEURO       Date                    8                             No
+  105  EXP_DRUG        Date                    8                             No
+  106  W_BIRTHC        Logical                 1                             No
+  107  W_CLOSINGR      Logical                 1                             No
+  108  W_TRNCERT       Logical                 1                             No
+  109  W_PRELIC        Logical                 1                             No
+  110  W_CERTEMP       Logical                 1                             No
+  111  W_MEDEXAM       Logical                 1                             No
+  112  GKERATE         Numeric                 6      2                      No
+** Total **                                 1126
+
+Structure for table:    D:\ARTSIS\GSIA\PIS\EMPSTAT.DBF
+Number of data records: 15      
+Date of last update:    09/18/03
+Code Page:              0       
+Field  Field Name      Type                Width    Dec   Index   Collate Nulls    Next    Step
+    1  CODE            Character               1                             No
+    2  NAME            Character              15                             No
+    3  ISRESIGNED      Logical                 1                             No
+** Total **                                   18
+
+Structure for table:    D:\ARTSIS\GSIA\PIS\FAMILY.DBF
+Number of data records: 470     
+Date of last update:    11/18/03
+Code Page:              0       
+Field  Field Name      Type                Width    Dec   Index   Collate Nulls    Next    Step
+    1  EMPNUMBER       Character               5                             No
+    2  NAME            Character              30                             No
+    3  BIRTH           Date                    8                             No
+    4  RELATION        Character              15                             No
+** Total **                                   59
+
+Structure for table:    D:\ARTSIS\GSIA\PIS\GOVEXAM.DBF
+Number of data records: 0       
+Date of last update:    07/16/03
+Code Page:              0       
+Field  Field Name      Type                Width    Dec   Index   Collate Nulls    Next    Step
+    1  EMPNUMBER       Character               5                             No
+    2  EXAM            Character              50                             No
+    3  RATING          Numeric                 6      2                      No
+    4  TAKEN           Character              10                             No
+** Total **                                   72
+
+Structure for table:    D:\ARTSIS\GSIA\PIS\LANGUAGE.DBF
+Number of data records: 8       
+Date of last update:    11/18/03
+Code Page:              0       
+Field  Field Name      Type                Width    Dec   Index   Collate Nulls    Next    Step
+    1  EMPNUMBER       Character               5                             No
+    2  CODE            Character               1                             No
+    3  READ            Character               9                             No
+    4  SPOKEN          Character               9                             No
+** Total **                                   25
+
+Structure for table:    D:\ARTSIS\GSIA\PIS\LEVTBL.DBF
+Number of data records: 6       
+Date of last update:    07/17/03
+Code Page:              0       
+Field  Field Name      Type                Width    Dec   Index   Collate Nulls    Next    Step
+    1  LVCODE          Character               2                             No
+    2  LVNAME          Character              20                             No
+    3  EARNCODE        Character               2                             No
+    4  NO_INCDATE      Logical                 1                             No
+** Total **                                   26
+
+Structure for table:    D:\ARTSIS\GSIA\PIS\MLACODE.DBF
+Number of data records: 36      
+Date of last update:    03/21/02
+Code Page:              0       
+Field  Field Name      Type                Width    Dec   Index   Collate Nulls    Next    Step
+    1  CODE            Character               5                             No
+    2  NAME            Character              30                             No
+** Total **                                   36
+
+Structure for table:    D:\ARTSIS\GSIA\PIS\MOVEDTL.DBF
+Number of data records: 503     
+Date of last update:    11/15/03
+Code Page:              0       
+Field  Field Name      Type                Width    Dec   Index   Collate Nulls    Next    Step
+    1  NUMBER          Character              10                             No
+    2  EMPNUMBER       Character               5                             No
+    3  MODE            Character               1                             No
+    4  DATE            Date                    8                             No
+    5  TIME            Character               4                             No
+    6  SADATE          Date                    8                             No
+    7  REASON          Character              60                             No
+** Total **                                   97
+
+Structure for table:    D:\ARTSIS\GSIA\PIS\MOVEHDR.DBF
+Number of data records: 503     
+Date of last update:    11/15/03
+Code Page:              0       
+Field  Field Name      Type                Width    Dec   Index   Collate Nulls    Next    Step
+    1  NUMBER          Character              10                             No
+    2  PREPDATE        Date                    8                             No
+    3  REQNUMBER       Character              10                             No
+    4  CLNUMBER        Character               5                             No
+    5  MODE            Character               1                             No
+    6  REPORT          Character              30                             No
+** Total **                                   65
+
+Structure for table:    D:\ARTSIS\GSIA\PIS\NEUROEXM.DBF
+Number of data records: 85      
+Date of last update:    11/07/03
+Code Page:              0       
+Field  Field Name      Type                Width    Dec   Index   Collate Nulls    Next    Step
+    1  EMPNUMBER       Character               5                             No
+    2  NEUTAKEN        Date                    8                             No
+    3  NEUEXPIRE       Date                    8                             No
+    4  NEUCENTER       Character              30                             No
+    5  NEURATING       Numeric                 6      2                      No
+    6  NEUREMARK       Character              20                             No
+** Total **                                   78
+
+Structure for table:    D:\ARTSIS\GSIA\PIS\PARENT.DBF
+Number of data records: 325     
+Date of last update:    11/18/03
+Code Page:              0       
+Field  Field Name      Type                Width    Dec   Index   Collate Nulls    Next    Step
+    1  EMPNUMBER       Character               5                             No
+    2  CODE            Character               1                             No
+    3  NAME            Character              30                             No
+    4  AGE             Numeric                 2                             No
+    5  OCC             Character              20                             No
+    6  ADDR            Character              60                             No
+** Total **                                  119
+
+Structure for table:    D:\ARTSIS\GSIA\PIS\PENALTY.DBF
+Number of data records: 32      
+Date of last update:    09/24/04
+Code Page:              0       
+Field  Field Name      Type                Width    Dec   Index   Collate Nulls    Next    Step
+    1  DEV_NO          Character              10                             No
+    2  FREQ            Character               1                             No
+    3  PENALTY_NO      Character               2                             No
+    4  DESC            Character              20                             No
+** Total **                                   34
+
+Structure for table:    D:\ARTSIS\GSIA\PIS\POSITION.DBF
+Number of data records: 11      
+Date of last update:    11/07/03
+Code Page:              0       
+Field  Field Name      Type                Width    Dec   Index   Collate Nulls    Next    Step
+    1  CODE            Character               5                             No
+    2  NAME            Character              15                             No
+    3  ISGUARD         Logical                 1                             No
+** Total **                                   22
+
+Structure for table:    D:\ARTSIS\GSIA\PIS\PROCODE.DBF
+Number of data records: 112     
+Date of last update:    03/21/02
+Code Page:              0       
+Field  Field Name      Type                Width    Dec   Index   Collate Nulls    Next    Step
+    1  CODE            Character               5                             No
+    2  NAME            Character              30                             No
+** Total **                                   36
+
+Structure for table:    D:\ARTSIS\GSIA\PIS\REFER.DBF
+Number of data records: 369     
+Date of last update:    11/18/03
+Code Page:              0       
+Field  Field Name      Type                Width    Dec   Index   Collate Nulls    Next    Step
+    1  EMPNUMBER       Character               5                             No
+    2  NAME            Character              50                             No
+    3  ADDR            Character              60                             No
+    4  TEL             Character              15                             No
+    5  POSITION        Character              15                             No
+** Total **                                  146
+
+Structure for table:    D:\ARTSIS\GSIA\PIS\SEX.DBF
+Number of data records: 2       
+Date of last update:    03/21/02
+Code Page:              0       
+Field  Field Name      Type                Width    Dec   Index   Collate Nulls    Next    Step
+    1  CODE            Character               1                             No
+    2  NAME            Character              10                             No
+** Total **                                   12
+
+Structure for table:    D:\ARTSIS\GSIA\PIS\SKILLS.DBF
+Number of data records: 23      
+Date of last update:    03/21/02
+Code Page:              0       
+Field  Field Name      Type                Width    Dec   Index   Collate Nulls    Next    Step
+    1  CODE            Character               2                             No
+    2  NAME            Character              20                             No
+** Total **                                   23
+
+Structure for table:    D:\ARTSIS\GSIA\PIS\STATUS.DBF
+Number of data records: 526     
+Date of last update:    11/18/03
+Code Page:              0       
+Field  Field Name      Type                Width    Dec   Index   Collate Nulls    Next    Step
+    1  DATE            Date                    8                             No
+    2  EMPNUMBER       Character               5                             No
+    3  EMPLOYSTAT      Character               1                             No
+    4  START           Date                    8                             No
+    5  END             Date                    8                             No
+    6  NO_DAYS         Numeric                 2                             No
+    7  ENCODEBY        Character              10                             No
+    8  ENCODEDT        Character              10                             No
+    9  CHANGEBY        Character              10                             No
+   10  CHANGEDT        Character              10                             No
+   11  POSTED          Logical                 1                             No
+** Total **                                   74
+
+Structure for table:    D:\ARTSIS\GSIA\PIS\TRAIN.DBF
+Number of data records: 132     
+Date of last update:    11/18/03
+Code Page:              0       
+Field  Field Name      Type                Width    Dec   Index   Collate Nulls    Next    Step
+    1  EMPNUMBER       Character               5                             No
+    2  PROGRAM         Character              50                             No
+    3  TAKEN           Character              10                             No
+    4  SCHOOL          Character              50                             No
+    5  TRAINOR         Character              30                             No
+    6  TYPE            Character               9                             No
+** Total **                                  155

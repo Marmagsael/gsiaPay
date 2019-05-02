@@ -1,0 +1,30 @@
+**
+PROCEDURE ECola
+PARAMETER xecolacoacodereg,  ;
+          xecolacoacoderd,  ;
+          xecolacoacodereghol,  ;
+          xecolacoacoderdreghol,  ;
+          xecolarate, xecoladays,  ;
+          xecolardhr,  ;
+          xecolaregholhr,  ;
+          xecolaregrdholhr,  ;
+          xecolasw
+IF NVL(xecolasw, 0) = 0
+     RETURN
+ENDIF
+IF NVL(xecolarate, 0) = 0
+     RETURN
+ENDIF
+mecola = xecolarate * xecoladays
+mecolareghol = (xecolarate / 8) *  ;
+               NVL(xecolaregholhr,  ;
+               0)
+mecolardreghol = (xecolarate / 8) *  ;
+                 NVL(xecolaregrdholhr,  ;
+                 0)
+SELECT xcurpaylst
+Replace &xECOLACoaCodeReg   WITH mECOLA,;
+ &xECOLACoaCodeRegHol  WITH mECOLARegHol,;
+&xECOLACoaCodeRDRegHol  WITH mECOLARDRegHol
+ENDPROC
+**

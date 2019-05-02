@@ -1,0 +1,2 @@
+DELETE FROM curMyReport WHERE   ALLTRIM(acctnumber)?IN(SELECT   ALLTRIM(acctnumber) FROM   curCOF WHERE flags_ = 0)
+Error in line 34 of Frm12.Scmdprint1.Click (record 14): Syntax error.

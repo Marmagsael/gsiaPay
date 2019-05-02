@@ -1,0 +1,150 @@
+*--- user access ----------------------------------------------------
+msql = 	" CREATE TABLE  "+xpay+".`useraccess` " + ; 
+		" (  `iduserAccess` int(10) unsigned NOT NULL AUTO_INCREMENT,  " + ; 
+		" `username` varchar(25) DEFAULT NULL,  `idsysmenu` int(10) unsigned DEFAULT NULL,  " + ;
+		" PRIMARY KEY (`iduserAccess`)) ENGINE=InnoDB AUTO_INCREMENT=1 DEFAULT CHARSET=latin1; " 
+SQLEXEC(xConn,msql)
+SQLEXEC(xConn,'show errors','useraccess_Error')
+
+
+
+*----  System Menu --------------------------------------------------
+msql = 	" CREATE TABLE  " + xpay + ".`sysmenu` (  `idsysmenu` int(10) unsigned NOT NULL AUTO_INCREMENT,  " + ; 
+		" `sourcetype` char(15) DEFAULT NULL,  `source` varchar(45) DEFAULT NULL,  `name` varchar(80) DEFAULT NULL,  " + ; 
+		" `dispval` varchar(80) DEFAULT NULL,  `barorder` int(10) unsigned DEFAULT '99',  " + ; 
+		" `priorityno` int(10) unsigned DEFAULT NULL,  `Action` varchar(80) DEFAULT ' ',  " + ; 
+		" `withchild` int(10) unsigned DEFAULT '0',  PRIMARY KEY (`idsysmenu`)) ENGINE=InnoDB AUTO_INCREMENT=1 DEFAULT CHARSET=utf8; "
+SQLEXEC(xConn,msql)
+
+insert_pad('_MSYSMENU','_System','System',1) 
+insert_pad('_MSYSMENU','_Setup','Setup',1) 
+insert_pad('_MSYSMENU','_Transaction','Transaction',1) 
+insert_pad('_MSYSMENU','_Reports','Reports',1) 
+insert_pad('_MSYSMENU','_AccountConfiguration','Account Configuration',1) 
+
+*!*	*-- System Bar ----------------------------------
+*!*	*--			  psource, pdispval,       		priorityno, paction, 					pwithchild 
+insert_bar01('_System','', 'User Adminstrtion', 2,		  	'DO FORM FRMUSERMGR',		0) 
+insert_bar01('_System','', 'Change Password', 	2,		  	'DO FORM FRMCHANGEPASS',	0) 
+insert_bar01('_System','', '\-', 		   		2,		  	'do form 01',				0) 
+insert_bar01('_System','', 'Log-Out',			2,	  		'DO FORM LOGIN',			0) 
+insert_bar01('_System','', '\-', 		   		2,		  	'do form 02',				0) 
+insert_bar01('_System','', 'Exit',				2,	  		'DO Exit',					0)
+
+*!*	*--- Setup --------------------------------------------------------------------------------
+*!*	*--- Transaction --------------------------------------------------------------------------------
+*!*	*--- Reports --------------------------------------------------------------------------------
+*!*	*--- Account Configuration --------------------------------------------------------------------------------
+
+
+*!*	*--- Data Entry Bar --------------------------------------------------------------------------------
+*!*	insert_bar01('_DataEntry', '', 			'Client Entry', 	2,		  	'do form CLIENTENTRY',		0) 
+*!*	insert_bar01('_DataEntry', '', 			'Employee Entry', 	2,		  	'DO FORM EMPENTRY',			0)
+*!*	insert_bar01('_DataEntry', '', 			'\-', 				2,		  	'DO FORM 04',				0)
+*!*	insert_bar01('_DataEntry', '', 			'Insurance Entry', 	2,		  	'DO FORM EMP_INSURANCE',	0)
+*!*	insert_bar01('_DataEntry', 'setup1', 	'Setup', 			2,		  	'DO FORM 05',				1)
+*!*		*--- Item of Setup1 -----------------------------------------------------------------------------
+*!*		insert_bar01('setup1', '', 			'Position', 				3,			'DO FORM POSITIONENTRY',	0)
+*!*		insert_bar01('setup1', '', 			'Civil Status', 			3,			'DO FORM CIVSTAT_ENTRY',	0)
+*!*		insert_bar01('setup1', '', 			'Employee Status', 			3,			'DO FORM EMPSTAT_ENTRY',	0)
+*!*		insert_bar01('setup1', '', 			'Meto Manila Code',			3,			'DO FORM MLA_CODE',			0)
+*!*		insert_bar01('setup1', '', 			'P\<rovincial Code',		3,			'DO FORM PRO_CODE',			0)
+*!*		insert_bar01('setup1', '', 			'Area Code Entry', 			3,			'DO FORM CLIENTAREAENTRY',	0)
+*!*		insert_bar01('setup1', '', 			'Deviation Type Entry',		3,			'DO FORM DEVTYPE_ENTRY',	0)
+*!*		insert_bar01('setup1', '', 			'Pe\<nalty Type Entry', 	3,			'DO FORM PENALTYTYPE_ENTRY',0)
+*!*		insert_bar01('setup1', '', 			'Leave Type Entry', 		3,			'DO FORM LEAVETYPE',		0)
+*!*		insert_bar01('setup1', '', 			'\-', 						3,			'DO FORM 05',				0)
+*!*		insert_bar01('setup1', '', 			'Payroll Grp Archieving', 	3,			'DO FORM ARCHIEVINGCLIENT',	0)
+*!*		insert_bar01('setup1', '', 			'Employee Archieving', 		3,			'DO FORM ARCHIEVING',		0)
+
+*!*	*--- Transaction Bar --------------------------------------------------------------------------------
+*!*	insert_bar01('_Transaction', '', 		'Employment Status Entry', 	2,		  	'DO FORM EMPSTAT',			0) 
+*!*	insert_bar01('_Transaction', '', 		'\-', 						2,		  	'DO FORM 06',				0)
+*!*	insert_bar01('_Transaction', '', 		'Assignment Order Entry', 	2,		  	'DO FORM ASSIGNMENTORDER',	0)
+*!*	insert_bar01('_Transaction', '', 		'Special Duty Order', 		2,		  	'DO FORM SDO',				0)
+*!*	insert_bar01('_Transaction', '', 		'\-', 						2,		  	'DO FORM 07',				0)
+*!*	insert_bar01('_Transaction', '', 		'Leave Transaction Entry', 	2,		  	'DO FORM LEAVE',			0)
+*!*	insert_bar01('_Transaction', '', 		'Recall Order Entry', 		2,		  	'DO FORM RECALL_ORDER',		0)
+*!*	insert_bar01('_Transaction', '', 		'Group Recall', 			2,		  	'DO FORM GRPRECALL',		0)
+*!*	insert_bar01('_Transaction', '', 		'R\<eturn To Unit (RTU)', 	2,		  	'DO FORM RTU',				0)
+*!*	insert_bar01('_Transaction', '', 		'\-', 						2,		  	'DO FORM 08',				0)
+*!*	insert_bar01('_Transaction', '', 		'De\<viation Penalty', 		2,		  	'DO FORM DEVIATION',		0)
+
+*!*	*--- Equipment Bar --------------------------------------------------------------------------------
+*!*	insert_bar01('_Equipment', '', 		'Inventory Entry', 				2,		  	'DO FORM EQUIP_MAIN',		0) 
+*!*	insert_bar01('_Equipment', '', 		'Equipment Entry', 				2,		  	'DO FORM EQUIP_PROC',		0) 
+*!*	insert_bar01('_Equipment', '', 		'\-', 							2,		  	'DO FORM 09',				0) 
+*!*	insert_bar01('_Equipment', '', 		'Equipment Summary', 			2,		  	'DO FORM EQUIP_LIST',		0) 
+*!*	insert_bar01('_Equipment', '', 		'\-', 							2,		  	'DO FORM 10',				0) 
+*!*	insert_bar01('_Equipment', '', 		'Quick Deployment', 			2,		  	'DO FORM EQUIP_QUICKDEPLOY',0) 
+*!*	insert_bar01('_Equipment', '', 		'Memorandum Receipt', 			2,		  	'DO FORM FRMMR',			0) 
+
+*!*	*--- Report Bar --------------------------------------------------------------------------------
+*!*	insert_bar01('_Reports', '', 		'Employee Master List', 			2,		  	'DO FORM EMP_MASTERLIST',		0) 
+*!*	insert_bar01('_Reports', '', 		'Newly Hired for the Month', 		2,		  	'DO FORM NEWLY_HIRED',			0) 
+*!*	insert_bar01('_Reports', '', 		'For Regularization', 				2,		  	'DO FORM FOR_REGULAR',			0) 
+*!*	insert_bar01('_Reports', '', 		'Resigned Personnel for the Month', 2,		  	'DO FORM RESIGNED',				0) 
+*!*	insert_bar01('_Reports', '', 		'\-', 								2,		  	'DO FORM 11',					0) 
+*!*	insert_bar01('_Reports', '', 		'License Verification', 			2,		  	'DO FORM LICENSE_VERIFICATION',	0) 
+*!*	insert_bar01('_Reports', '', 		'License Expiration', 				2,		  	'DO FORM REP_EXPLIC',			0) 
+*!*	insert_bar01('_Reports', '', 		'\-', 								2,		  	'DO FORM 12',					0) 
+*!*	insert_bar01('_Reports', '', 		'Manpower Movement', 				2,		  	'DO FORM MANPOWER_MOVEMENT',	0) 
+*!*	insert_bar01('_Reports', '', 		'Client Guard Detail', 				2,		  	'DO FORM CLG_DETAIL',			0) 
+*!*	insert_bar01('_Reports', '', 		'\-', 								2,		  	'DO FORM 13',					0) 
+*!*	insert_bar01('_Reports', '', 		'PNP SAGSD Report', 				2,		  	'DO FORM PNPSAGSD',				0) 
+*!*	insert_bar01('_Reports', '', 		'FED Report', 						2,		  	'DO FORM  FED',					0) 
+*!*	insert_bar01('_Reports', '', 		'\-', 								2,		  	'DO FORM 14',					0) 
+*!*	insert_bar01('_Reports', '', 		'Assignment History', 				2,		  	'DO FORM ASSIGNMENT_HIS',		0) 
+*!*	insert_bar01('_Reports', '', 		'Group DDO', 						2,		  	'DO FORM DDOSUM',				0) 
+*!*	insert_bar01('_Reports', '', 		'On-Leave Employee', 				2,		  	'DO FORM ON_LEAVE',				0) 
+*!*	insert_bar01('_Reports', '', 		'Summarized Deviation', 			2,		  	'DO FORM REP_DEVSUMM',			0) 
+*!*	insert_bar01('_Reports', '', 		'Detailed De\<viation', 			2,		  	'DO FORM DET_DEVIATION',		0) 
+*!*	insert_bar01('_Reports', '', 		'Recalled Employee Report', 		2,		  	'DO FORM REP_RECALLSUMM',		0) 
+*!*	insert_bar01('_Reports', '', 		'RTU Report', 						2,		  	'DO FORM REP_RTUSUMM',			0) 
+*!*	insert_bar01('_Reports', '', 		'\-', 								2,		  	'DO FORM 15',					0) 
+*!*	insert_bar01('_Reports', '', 		'Employee Status Report', 			2,		  	'DO FORM EMP_STATUS',			0) 
+*!*	insert_bar01('_Reports', '', 		'\-', 								2,		  	'DO FORM 16',					0) 
+*!*	insert_bar01('_Reports', '', 		'Insurance Policy', 				2,		  	'DO FORM INSURANCE_REP',		0) 
+*!*	insert_bar01('_Reports', '', 		'SSS R1-A', 						2,		  	'DO FORM SSS_R1A',				0) 
+*!*	insert_bar01('_Reports', '', 		'PhilHealth ER2', 					2,		  	'DO FORM PHIC_ER2',				0) 
+*!*	insert_bar01('_Reports', '', 		'\-', 								2,		  	'DO FORM 17',					0) 
+*!*	insert_bar01('_Reports', '', 		'E\<mployee Age', 					2,		  	'DO FORM REP_AGE',				0) 
+*!*	insert_bar01('_Reports', '', 		'Employee Clearance', 				2,		  	'DO FORM CLEARANCES_REP',		0) 
+*!*	insert_bar01('_Reports', '', 		'Hire Date Report', 				2,		  	'DO FORM DATEHIRED',			0) 
+*!*	insert_bar01('_Reports', '', 		'Floating Employees', 				2,		  	'DO FORM FLOATINGEMP',			0) 
+*!*	insert_bar01('_Reports', '', 		'\-', 								2,		  	'DO FORM 18',					0) 
+*!*	insert_bar01('_Reports', '', 		'Contract Expiration Report', 		2,		  	'DO FORM FRMCONTREXPIRATION',	0) 
+*!*	insert_bar01('_Reports', '', 		'Uniform Query', 					2,		  	'DO FORM UNIFORM',				0) 
+
+
+FUNCTION insert_pad 
+LPARAMETERS psource, pName, pdispval, ppriorityno
+
+	msql = "select * from " + xpay + ".sysmenu where dispval = ?pdispval"
+	SQLEXEC(xConn,msql,'x')
+	
+	IF 	RECCOUNT('x') = 0 
+		msql = 'insert into '+xpay+'.sysmenu (sourceType, source, 	 name, 	 	dispval, 	barorder, priorityno,   action,  withchild) ' + ; 
+									" values ('PAD',	  ?psource,  ?pName, 	?pdispval,  99, 	  ?ppriorityno, '', 	 0)"
+		SQLEXEC(xConn,msql)
+		SQLEXEC(xConn,'show errors','padError')
+		
+	ENDIF 
+
+ENDFUNC 
+
+
+FUNCTION insert_bar01 && primary bar function 
+LPARAMETERS psource, pname, pdispval, ppriorityno, paction, pwithchild 
+	msql = "select * from " + xpay + ".sysmenu where action = ?paction and source = ?psource"
+	SQLEXEC(xConn,msql,'x') 
+	
+	IF 	RECCOUNT('x') = 0 
+		msql = 'insert into '+xpay+'.sysmenu (sourceType, source, 	 name, 	 dispval, 	barorder, priorityno,  action, withchild) ' + ; 
+									" values ('bar',	  ?psource,  ?pname,     ?pdispval, 99, 	  ?ppriorityno,?paction,     ?pwithchild)"
+		SQLEXEC(xConn,msql)
+		SQLEXEC(xConn,'show errors','barError')
+		
+	ENDIF 
+
+ENDFUNC 

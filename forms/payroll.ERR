@@ -1,0 +1,10 @@
+REPORT FORM payslip.frx PREVIEW   TO PRINTER PROMPT   NODIALOG
+Error in line 234 of Frm12.Command2.Click (record 25): Missing comma (,).
+REPORT FORM payslip.frx PREVIEW   TO PRINTER PROMPT   NODIALOG
+Error in line 523 of Frm12.Scmdsave1.Click (record 67): Missing comma (,).
+REPORT FORM payslip.frx PREVIEW   TO PRINTER PROMPT   NODIALOG
+Error in line 416 of Frm12.Command5.Click (record 69): Missing comma (,).
+REPORT FORM rptBankAdvise PREVIEW   TO PRINTER PROMPT NODIALOG   FOR  .NOT.   EMPTY(ALLTRIM(acctcode))
+Error in line 189 of Frm12.Command8.Click (record 70): Missing comma (,).
+REPORT FORM rptCashBasis PREVIEW   TO PRINTER PROMPT NODIALOG   FOR   EMPTY(ALLTRIM(acctcode))
+Error in line 193 of Frm12.Command8.Click (record 70): Missing comma (,).

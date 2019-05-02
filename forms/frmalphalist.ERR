@@ -1,0 +1,2 @@
+REPORT FORM rptAlphaList PREVIEW   TO PRINTER PROMPT   NODIALOG
+Error in line 224 of Frm12.Scmdprint1.Click (record 5): Missing comma (,).

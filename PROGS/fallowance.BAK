@@ -1,0 +1,19 @@
+**
+PROCEDURE Allowance
+mempnumber = xcurpaylst.empnumber
+SELECT * FROM CurPayLst WHERE  ;
+         empnumber = mempnumber  ;
+         INTO CURSOR x
+IF RECCOUNT('x') = 0
+     RETURN
+ENDIF
+mallow = 0
+IF x.allowrate > 0
+     mallow = x.allowrate
+ENDIF
+xamt = mallow / 30 *  ;
+       xcurpaylst.e001_2
+SELECT xcurpaylst
+REPLACE e015 WITH xamt
+ENDPROC
+**

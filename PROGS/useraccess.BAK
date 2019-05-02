@@ -1,0 +1,120 @@
+*---- Create User Access table ---------------------------------------------
+msql = "CREATE TABLE  "+xpay+".`useraccess` (  `iduserAccess` int(10) unsigned NOT NULL AUTO_INCREMENT,  " + ; 
+		" `username` varchar(25) DEFAULT NULL,  `idsysmenu` int(10) unsigned DEFAULT NULL,   " + ; 
+		" PRIMARY KEY (`iduserAccess`)) ENGINE=InnoDB AUTO_INCREMENT=1285 DEFAULT CHARSET=latin1;"
+SQLEXEC(xConn,msql,"x")
+
+
+musername = curpayuser.username
+
+msql = "SELECT * FROM "+xpay+".sysmenu" 
+SQLEXEC(xConn,msql,"x")
+
+SET SYSMENU TO
+SET SYSMENU AUTOMATIC
+xctr = 0 
+SELECT x 
+SCAN FOR ALLTRIM(UPPER(source)) = UPPER('_msysmenu')
+	xctr = xctr + 1
+	*--- Main Selection -----------------------------------------------------------------------
+	mcomm = "DEFINE PAD "+ALLTRIM(name)+" OF "+ALLTRIM(source)+" PROMPT '"+ALLTRIM(dispval)+"'"
+	&mcomm
+	
+	*--- Padding ---------------------
+	mname = ALLTRIM(name)
+	mnamex = RIGHT(mname,LEN(mname)-1) 
+	mcomm = "ON PAD  "+ALLTRIM(name)+" OF "+ALLTRIM(source)+" ACTIVATE POPUP " + mnamex
+	&mcomm
+	
+	*----Pop up ------------------------
+	mcomm = "DEFINE POPUP " + mnamex + " MARGIN RELATIVE SHADOW COLOR SCHEME 4"
+	&mcomm
+	
+	*---- Show Menu ----------------------------------
+	msql = "SELECT * FROM "+xpay+".`sysmenu` where source = ?mname and sourcetype = 'BAR' order by barorder" 
+	SQLEXEC(xConn,msql,'cbar')
+	SELECT cbar 
+	mctr = 0 
+	SCAN ALL 
+		mctr = mctr + 1 
+		
+		*--- Displau Menu ---------------------------------------------
+		mcomm = "DEFINE BAR " + ALLTRIM(STR(mctr)) + " OF " + mnamex + " PROMPT '" + ALLTRIM(NVL(dispval,'')) + "'" 
+		*----Validate Access ------------------------
+		midsysmenu = cbar.idsysmenu 
+		msql = "select * from "+xpay+".useraccess where username = ?musername and idsysmenu = ?midsysmenu"
+		SQLEXEC(xConn,msql,'xtest')
+		SELECT cbar
+		
+		IF 	ALLTRIM(NVL(dispval,'')) = "\-" 
+			mcomm = "DEFINE BAR " + ALLTRIM(STR(mctr)) + " OF " + mnamex + " PROMPT '\" + ALLTRIM(NVL(dispval,'')) + "'"
+		ELSE 
+			IF 	RECCOUNT('xtest') = 0 AND ALLTRIM(NVL(dispval,'')) != "\-"  AND ALLTRIM(LOWER(musername)) != 'mar0675' 
+				mcomm = "DEFINE BAR " + ALLTRIM(STR(mctr)) + " OF " + mnamex + " PROMPT '\" + ALLTRIM(NVL(dispval,'')) + "'"
+			ENDIF 
+		ENDIF 
+		
+*!*			IF 	RECCOUNT('xtest') = 0 AND ALLTRIM(NVL(dispval,'')) != "\-" 
+*!*				mcomm = "DEFINE BAR " + ALLTRIM(STR(mctr)) + " OF " + mnamex + " PROMPT '\" + ALLTRIM(NVL(dispval,'')) + "'"
+*!*			ENDIF 
+		
+		***********************************************
+		&mcomm 
+		 
+		
+		IF 	!EMPTY(NVL(action,'')) OR LEFT(ALLTRIM(NVL(action,'')),1) = '0'
+			*---- Integrate action --------------------------------
+			mcomm = "ON SELECTION BAR "+ALLTRIM(STR(mctr)) + " OF " + mnamex + " " + action 
+			&mcomm 
+		ENDIF 
+		
+		IF 	withChild = 1
+			
+			mcomm 	= "ON BAR " + alltr(STR(mctr)) + " OF " +  mnamex +  " ACTIVATE POPUP " + ALLTRIM(name)
+			&mcomm 
+			
+			mcomm 	= "DEFINE POPUP " + ALLTRIM(name)
+			&mcomm 
+			
+			*--- Fetch Child nodes ----------------------------------------------------------------------
+			mparent = ALLTRIM(name) 
+			msql = "SELECT * FROM "+xpay+".`sysmenu` where source = ?mparent order by barorder" 
+			SQLEXEC(xConn,msql,'child')
+			SELECT child
+			
+			mchildCtr = 0 
+			SCAN all
+				
+				mchildCtr = mchildCtr + 1 
+				
+				mcomm 	= "DEFINE BAR " + ALLTRIM(STR(mchildCtr)) + " OF " + mparent + " PROMPT '" + ALLTRIM(NVL(dispval,'')) + "'"
+				
+				*----Validate Access ------------------------
+				midsysmenu = child.idsysmenu 
+				msql = "select * from "+xpay+".useraccess where username = ?musername and idsysmenu = ?midsysmenu"
+				SQLEXEC(xConn,msql,'xtest')
+				SELECT child
+				IF RECCOUNT('xtest') = 0 AND ALLTRIM(NVL(dispval,'')) != "\-"
+					mcomm 	= "DEFINE BAR " + ALLTRIM(STR(mchildCtr)) + " OF " + mparent + " PROMPT '\" + ALLTRIM(NVL(dispval,'')) + "'"
+				ENDIF 
+				***********************************************
+				&mcomm 
+				
+				IF 	!EMPTY(NVL(action,''))
+					*---- Integrate action --------------------------------
+					mcomm = "ON SELECTION BAR "+ALLTRIM(STR(mchildCtr)) + " OF " + mparent + " " + action 
+					&mcomm 
+				ENDIF 		
+				
+				SELECT child
+				
+			ENDSCAN 
+		ENDIF 
+					
+		SELECT cbar 
+	ENDSCAN 
+	
+	SELECT x  
+	
+	
+ENDSCAN 

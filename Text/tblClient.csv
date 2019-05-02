@@ -1,0 +1,33 @@
+Table Name : Client,,,,,,
+
+
+,Field,Type,Null,Key,Default,Extra
+1 ,CLNUMBER,varchar(5),YES,,,
+2 ,CLNAME,varchar(60),YES,,,
+3 ,ADDR1,varchar(60),YES,,,
+4 ,ADDR2,varchar(60),YES,,,
+5 ,AREACODE,varchar(5),YES,,,
+6 ,TEL1,varchar(10),YES,,,
+7 ,FAXNO,varchar(10),YES,,,
+8 ,PARENT,varchar(5),YES,,,
+9 ,RATE,"double(7,2)",YES,,,
+10 ,BILLRATE,"double(7,2)",YES,,,
+11 ,ASSIST,"double(6,2)",YES
+12 ,STATUS,varchar(15),YES
+13 ,COLARATE,"double(5,2)",YES
+14 ,ND_RATE,"double(5,3)",YES
+15 ,RETIRATE,"double(5,3)",YES
+16 ,UNIFRATE,"double(6,2)",YES
+17 ,FDIRATE,"double(5,3)",YES
+18 ,OTRATE,"double(6,2)",YES
+19 ,TIN,varchar(15),YES
+20 ,CONT,varchar(1),YES
+21 ,USED,varchar(1),YES
+22 ,CONTACT,varchar(25),YES
+23 ,POSTPERIOD,varchar(8),YES
+24 ,BATCH,varchar(2),YES
+25 ,FSSSEE,"double(7,2)",YES
+26 ,FSSSER,"double(7,2)",YES
+27 ,FECC,"double(5,2)",YES
+28 ,FMEDEE,"double(7,2)",YES
+29 ,FMEDER,"double(7,2)",YES

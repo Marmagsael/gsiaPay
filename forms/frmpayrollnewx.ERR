@@ -1,0 +1,4 @@
+SELECT *, !_err=0x1A0F_!  (xshow_, 'I',   1, .NULL.)   AS show_   FROM   curCharOfAcct   INTO CURSOR   curCharOfAcct   READWRITE
+Error in line 43 of Frm12.Grid1.Init (record 5): Command contains unrecognized phrase/keyword.
+SELECT *, !_err=0x1A0F_!  (xshow_, 'I',   1, .NULL.)   AS show_   FROM   curCharOfAcct   INTO CURSOR   curCharOfAcct   READWRITE
+Error in line 40 of Frm12.Combo7.InteractiveChange (record 17): Command contains unrecognized phrase/keyword.

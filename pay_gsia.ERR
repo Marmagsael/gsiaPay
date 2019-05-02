@@ -1,0 +1,150 @@
+Compiling c:\users\mar\desktop\x\universalpayroll\forms\payroll.scx
+REPORT FORM payslip.frx PREVIEW   TO PRINTER PROMPT   NODIALOG
+Error in line 234 of Frm12.Command2.Click (record 25): Missing comma (,).
+REPORT FORM payslip.frx PREVIEW   TO PRINTER PROMPT   NODIALOG
+Error in line 523 of Frm12.Scmdsave1.Click (record 67): Missing comma (,).
+REPORT FORM payslip.frx PREVIEW   TO PRINTER PROMPT   NODIALOG
+Error in line 416 of Frm12.Command5.Click (record 69): Missing comma (,).
+REPORT FORM rptBankAdvise PREVIEW   TO PRINTER PROMPT NODIALOG   FOR  .NOT.   EMPTY(ALLTRIM(acctcode))
+Error in line 189 of Frm12.Command8.Click (record 70): Missing comma (,).
+REPORT FORM rptCashBasis PREVIEW   TO PRINTER PROMPT NODIALOG   FOR   EMPTY(ALLTRIM(acctcode))
+Error in line 193 of Frm12.Command8.Click (record 70): Missing comma (,).
+
+Compiling c:\users\mar\desktop\x\universalpayroll\forms\frmearnings.scx
+REPORT FORM   rptotherearn1.frx   PREVIEW TO   PRINTER PROMPT   NODIALOG
+Error in line 60 of frmEarnings.form1.Command1.Click (record 41): Missing comma (,).
+REPORT FORM   rptotherearn2.frx   PREVIEW TO   PRINTER PROMPT   NODIALOG
+Error in line 75 of frmEarnings.form1.Command1.Click (record 41): Missing comma (,).
+REPORT FORM   rptotherearn3.frx   PREVIEW TO   PRINTER PROMPT   NODIALOG
+Error in line 90 of frmEarnings.form1.Command1.Click (record 41): Missing comma (,).
+
+Compiling c:\users\mar\desktop\x\universalpayroll\forms\frmdeductions.scx
+REPORT FORM   rptotherded1.frx   PREVIEW TO   PRINTER PROMPT   NODIALOG
+Error in line 60 of frmDeductions.form1.Command1.Click (record 47): Missing comma (,).
+REPORT FORM   rptotherded2.frx   PREVIEW TO   PRINTER PROMPT   NODIALOG
+Error in line 75 of frmDeductions.form1.Command1.Click (record 47): Missing comma (,).
+REPORT FORM   rptotherded3.frx   PREVIEW TO   PRINTER PROMPT   NODIALOG
+Error in line 90 of frmDeductions.form1.Command1.Click (record 47): Missing comma (,).
+
+Compiling c:\users\mar\desktop\x\universalpayroll\forms\frmpayrollnew.scx
+SELECT *, !_err=0x1A0F_!  (xshow_, 'I',   1, .NULL.)   AS show_   FROM   curCharOfAcct   INTO CURSOR   curCharOfAcct   READWRITE
+Error in line 43 of Frm12.Grid1.Init (record 5): Command contains unrecognized phrase/keyword.
+SELECT *, !_err=0x1A0F_!  (xshow_, 'I',   1, .NULL.)   AS show_   FROM   curCharOfAcct   INTO CURSOR   curCharOfAcct   READWRITE
+Error in line 40 of Frm12.Combo7.InteractiveChange (record 17): Command contains unrecognized phrase/keyword.
+
+Compiling c:\users\mar\desktop\x\universalpayroll\forms\frmpartialded.scx
+REPORT FORM rptBal PREVIEW TO   PRINTER PROMPT NODIALOG
+Error in line 5 of Frm12.Scmdprint1.Click (record 59): Missing comma (,).
+
+Compiling c:\users\mar\desktop\x\universalpayroll\forms\frmearnsum.scx
+DELETE FROM curMyReport WHERE   ALLTRIM(acctnumber)?IN(SELECT   ALLTRIM(acctnumber) FROM   curCOF WHERE flags_ = 0)
+Error in line 34 of Frm12.Scmdprint1.Click (record 14): Syntax error.
+
+Compiling c:\users\mar\desktop\x\universalpayroll\forms\frmbilling.scx
+REPORT FORM rptBill PREVIEW TO   PRINTER PROMPT NODIALOG
+Error in line 95 of Frm12.Scmdsave1.Click (record 58): Missing comma (,).
+
+Compiling c:\users\mar\desktop\x\universalpayroll\forms\frmpypos.scx
+REPORT FORM rptPYPos PREVIEW   TO PRINTER PROMPT   NODIALOG FOR   ALLTRIM(trn) ==   lctrn
+Error in line 122 of Frm12.Scmdprint1.Click (record 16): Missing comma (,).
+
+Compiling c:\users\mar\desktop\x\universalpayroll\forms\frmbillingtrans.scx
+REPORT FORM rptBill PREVIEW TO   PRINTER PROMPT NODIALOG
+Error in line 29 of Frm12.Scmdprint1.Click (record 14): Missing comma (,).
+
+Compiling c:\users\mar\desktop\x\universalpayroll\forms\sss_r1a.scx
+REPORT FORM 'sss.frx' PREVIEW TO   PRINTER PROMPT NODIALOG
+Error in line 37 of Formset.Pis12.Print_1.Click (record 39): Missing comma (,).
+
+Compiling c:\users\mar\desktop\x\universalpayroll\forms\frmpagibigcontremit.scx
+REPORT FORM rptPAGIgBIGContRemit   PREVIEW TO PRINTER PROMPT   NODIALOG
+Error in line 27 of Formset.Frm12.Scmdprint1.Click (record 6): Missing comma (,).
+
+Compiling c:\users\mar\desktop\x\universalpayroll\forms\frmalphalist.scx
+REPORT FORM rptAlphaList PREVIEW   TO PRINTER PROMPT   NODIALOG
+Error in line 224 of Frm12.Scmdprint1.Click (record 5): Missing comma (,).
+
+Compiling c:\users\mar\desktop\x\universalpayroll\forms\frmaccounttotals.scx
+REPORT FORM rptAcctTotals PREVIEW   TO PRINTER PROMPT NODIALOG   FOR ALLTRIM(isatm) == "1"
+Error in line 267 of Frm12.Scmdprint1.Click (record 13): Missing comma (,).
+REPORT FORM rptAcctTotals1   PREVIEW TO PRINTER PROMPT   NODIALOG FOR   ALLTRIM(isatm) == "0"
+Error in line 273 of Frm12.Scmdprint1.Click (record 13): Missing comma (,).
+
+Compiling c:\users\mar\desktop\x\universalpayroll\forms\frmsbquota.scx
+REPORT FORM rptSB PREVIEW TO   PRINTER PROMPT NODIALOG
+Error in line 5 of Frm12.Scmdprint1.Click (record 20): Missing comma (,).
+
+Compiling c:\users\mar\desktop\x\universalpayroll\forms\frmcalculator.scx
+REPORT FORM payslip.frx PREVIEW   TO PRINTER PROMPT   NODIALOG
+Error in line 234 of Frm12.Command2.Click (record 25): Missing comma (,).
+REPORT FORM payslip.frx PREVIEW   TO PRINTER PROMPT   NODIALOG
+Error in line 510 of Frm12.Scmdsave1.Click (record 66): Missing comma (,).
+REPORT FORM rptPYR PREVIEW TO   PRINTER PROMPT NODIALOG   FOR ALLTRIM(trn) ==   ALLTRIM(ALLTRIM(thisform.lbl7.caption))
+Error in line 233 of Frm12.Command9.Click (record 68): Missing comma (,).
+REPORT FORM payslip.frx PREVIEW   TO PRINTER PROMPT   NODIALOG
+Error in line 388 of Frm12.Command5.Click (record 69): Missing comma (,).
+REPORT FORM rptBankAdvise PREVIEW   TO PRINTER PROMPT NODIALOG   FOR  .NOT.   EMPTY(ALLTRIM(acctcode))
+Error in line 188 of Frm12.Command8.Click (record 70): Missing comma (,).
+REPORT FORM rptCashBasis PREVIEW   TO PRINTER PROMPT NODIALOG   FOR   EMPTY(ALLTRIM(acctcode))
+Error in line 192 of Frm12.Command8.Click (record 70): Missing comma (,).
+
+Compiling c:\users\mar\desktop\x\universalpayroll\forms\payrollx.scx
+REPORT FORM payslip.frx PREVIEW   TO PRINTER PROMPT   NODIALOG
+Error in line 234 of Frm12.Command2.Click (record 25): Missing comma (,).
+REPORT FORM payslip.frx PREVIEW   TO PRINTER PROMPT   NODIALOG
+Error in line 510 of Frm12.Scmdsave1.Click (record 67): Missing comma (,).
+REPORT FORM rptPYR PREVIEW TO   PRINTER PROMPT NODIALOG   FOR ALLTRIM(trn) ==   ALLTRIM(ALLTRIM(thisform.lbl7.caption))
+Error in line 233 of Frm12.Command9.Click (record 76): Missing comma (,).
+
+Compiling c:\users\mar\desktop\x\universalpayroll\forms\frmpayrollnewx.scx
+SELECT *, !_err=0x1A0F_!  (xshow_, 'I',   1, .NULL.)   AS show_   FROM   curCharOfAcct   INTO CURSOR   curCharOfAcct   READWRITE
+Error in line 43 of Frm12.Grid1.Init (record 5): Command contains unrecognized phrase/keyword.
+SELECT *, !_err=0x1A0F_!  (xshow_, 'I',   1, .NULL.)   AS show_   FROM   curCharOfAcct   INTO CURSOR   curCharOfAcct   READWRITE
+Error in line 40 of Frm12.Combo7.InteractiveChange (record 17): Command contains unrecognized phrase/keyword.
+
+Compiling c:\users\mar\desktop\x\universalpayroll\forms\frmalphalistsingle.scx
+REPORT FORM rptAlphaList PREVIEW   TO PRINTER PROMPT   NODIALOG
+Error in line 225 of Frm12.Scmdprint1.Click (record 5): Missing comma (,).
+
+Compiling c:\users\mar\desktop\x\universalpayroll\forms\payroll3.scx
+REPORT FORM payslip.frx PREVIEW   TO PRINTER PROMPT   NODIALOG
+Error in line 433 of PAYROLL3.Command5.Click (record 77): Missing comma (,).
+
+Compiling c:\users\mar\desktop\x\universalpayroll\forms\payrollnew.scx
+SELECT *, !_err=0x1A0F_!  (xshow_, 'I',   1, .NULL.)   AS show_   FROM   curCharOfAcct   INTO CURSOR   curCharOfAcct   READWRITE
+Error in line 40 of PAYROLLNEW.grdCOA.Init (record 33): Command contains unrecognized phrase/keyword.
+
+Compiling c:\users\mar\desktop\x\universalpayroll\forms\payroll2.scx
+REPORT FORM payslip.frx PREVIEW   TO PRINTER PROMPT   NODIALOG
+Error in line 234 of Frm12.Command2.Click (record 25): Missing comma (,).
+REPORT FORM payslip.frx PREVIEW   TO PRINTER PROMPT   NODIALOG
+Error in line 523 of Frm12.Scmdsave1.Click (record 67): Missing comma (,).
+REPORT FORM payslip.frx PREVIEW   TO PRINTER PROMPT   NODIALOG
+Error in line 405 of Frm12.Command5.Click (record 69): Missing comma (,).
+REPORT FORM rptBankAdvise PREVIEW   TO PRINTER PROMPT NODIALOG   FOR  .NOT.   EMPTY(ALLTRIM(acctcode))
+Error in line 189 of Frm12.Command8.Click (record 70): Missing comma (,).
+REPORT FORM rptCashBasis PREVIEW   TO PRINTER PROMPT NODIALOG   FOR   EMPTY(ALLTRIM(acctcode))
+Error in line 193 of Frm12.Command8.Click (record 70): Missing comma (,).
+
+Compiling c:\users\mar\desktop\x\universalpayroll\forms\frmregistermaster.scx
+REPORT FORM rptPYR PREVIEW TO   PRINTER PROMPT NODIALOG
+Error in line 126 of Frm12.Scmdprint1.Click (record 11): Missing comma (,).
+
+Form c:\users\mar\desktop\x\universalpayroll\forms\login.scx has the following errors:
+    Menu MAINMENU - Undefined
+
+Visual Class Library c:\users\mar\desktop\x\universalpayroll\class\dits.vcx has the following errors:
+    File NEW.JPG - Undefined
+    File SAVE.JPG - Undefined
+    File BANK.JPG - Undefined
+    File CLIENT.JPG - Undefined
+    File PRINT.JPG - Undefined
+    File DELETE.JPG - Undefined
+    File UPDATE.JPG - Undefined
+    File ATTACHMENT.JPG - Undefined
+    File OTHERS.GIF - Undefined
+    File VOID.JPG - Undefined
+    File FIND.JPG - Undefined
+    File APPROVED.JPG - Undefined
+    File EXIT.JPG - Undefined
+

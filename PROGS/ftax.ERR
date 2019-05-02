@@ -1,0 +1,2 @@
+MESSAGEBOX( 'Tax criteria for ' ALLTRIM(xcurpaylst.name) ' is invalid',  "Message")
+Error in line 33: Function name is missing ).

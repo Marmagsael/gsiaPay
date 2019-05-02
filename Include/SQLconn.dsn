@@ -1,0 +1,6 @@
+[ODBC]
+DRIVER=SQL SERVER
+UID=sa
+DATABASE=hpams
+APP=Microsoft Data Access Components
+SERVER=23.131.104.19 

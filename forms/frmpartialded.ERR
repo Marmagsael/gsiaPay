@@ -1,0 +1,2 @@
+REPORT FORM rptBal PREVIEW TO   PRINTER PROMPT NODIALOG
+Error in line 5 of Frm12.Scmdprint1.Click (record 59): Missing comma (,).

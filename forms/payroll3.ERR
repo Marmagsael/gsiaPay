@@ -1,0 +1,2 @@
+REPORT FORM payslip.frx PREVIEW   TO PRINTER PROMPT   NODIALOG
+Error in line 434 of PAYROLL3.Command5.Click (record 77): Missing comma (,).

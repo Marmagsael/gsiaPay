@@ -1,0 +1,2 @@
+REPORT FORM rptPAGIgBIGContRemit   PREVIEW TO PRINTER PROMPT   NODIALOG
+Error in line 27 of Formset.Frm12.Scmdprint1.Click (record 6): Missing comma (,).

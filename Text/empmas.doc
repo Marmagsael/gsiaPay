@@ -1,0 +1,137 @@
+
+Structure for table:    D:\ARTSIS\GSIA\PIS\EMPMAS.DBF
+Number of data records: 1733    
+Date of last update:    11/18/03
+Code Page:              0       
+Field  Field Name      Type                Width    Dec   Index   Collate Nulls    Next    Step
+    1  EMPNUMBER       Character               5                             No
+    2  EMPLASTNM       Character              15                             No
+    3  EMPFIRSTNM      Character              15                             No
+    4  EMPMIDNM        Character              15                             No
+    5  EMPALIAS        Character              15                             No
+    6  CLIENT          Character               5                             No
+    7  CLIENT_         Character               5                             No
+    8  BASICRATE       Character               9                             No
+    9  PAYTYPE         Character               1                             No
+   10  ADMIN           Logical                 1                             No
+   11  CASHBOND        Numeric                 7      2                      No
+   12  WORKDAYS        Numeric                 3                             No
+   13  ALLOWRATE       Numeric                 9      2                      No
+   14  ALLOWTYPE       Character               1                             No
+   15  ALLOWFIX        Logical                 1                             No
+   16  ALLOW2RATE      Numeric                 9      2                      No
+   17  ALLOW2TYPE      Character               1                             No
+   18  ALLOW2FIX       Logical                 1                             No
+   19  ALLOW3RATE      Numeric                 9      2                      No
+   20  ALLOW3TYPE      Character               1                             No
+   21  ALLOW3FIX       Logical                 1                             No
+   22  ALLOW4RATE      Numeric                 9      2                      No
+   23  ALLOW4TYPE      Character               1                             No
+   24  ALLOW4FIX       Logical                 1                             No
+   25  MOVNUMBER       Character              10                             No
+   26  MOVMODE         Character               1                             No
+   27  MOVDATE         Date                    8                             No
+   28  POSTMAS_        Character               6                             No
+   29  DUTYDATE        Date                    8                             No
+   30  ADDR1           Character              60                             No
+   31  MLACODE_        Character               5                             No
+   32  TEL1            Character              15                             No
+   33  ADDR2           Character              60                             No
+   34  PROCODE_        Character               5                             No
+   35  TEL2            Character              15                             No
+   36  EMPBIRTH        Date                    8                             No
+   37  BIRTHPLACE      Character              30                             No
+   38  SEX_            Character               1                             No
+   39  CIVSTAT_        Character               1                             No
+   40  CITIZEN         Character              15                             No
+   41  HEIGHT          Numeric                 6      4                      No
+   42  WEIGHT          Numeric                 6      2                      No
+   43  TIN             Character              11                             No
+   44  SSS             Character              12                             No
+   45  HDMF            Character              12                             No
+   46  RELIGION        Character              15                             No
+   47  HAIR            Character               5                             No
+   48  EYES            Character               5                             No
+   49  SPOUSE          Character              25                             No
+   50  OCCUPATION      Character              15                             No
+   51  NOCHILDREN      Numeric                 2                             No
+   52  DATEHIRED       Date                    8                             No
+   53  SEPARATE        Date                    8                             No
+   54  POSITION_       Character               5                             No
+   55  EMPSTAT_        Character               1                             No
+   56  STATUSDATE      Date                    8                             No
+   57  SECLICENSE      Character              15                             No
+   58  LICEXPIRE       Date                    8                             No
+   59  TRAINAT         Character              30                             No
+   60  DATETRAIN       Date                    8                             No
+   61  INSURANCE       Character              20                             No
+   62  POLICYNO        Character              15                             No
+   63  FACEVALUE       Numeric                 9      2                      No
+   64  PREMIUM         Numeric                 6      2                      No
+   65  INSEXPIRE       Date                    8                             No
+   66  EXMILITARY      Logical                 1                             No
+   67  ROTC            Logical                 1                             No
+   68  ELLEVEL         Character               8                             No
+   69  HSLEVEL         Character               8                             No
+   70  COLLEGE_        Character               8                             No
+   71  COURSE          Character              25                             No
+   72  VOLEVEL         Character               8                             No
+   73  VOCOURSE        Character              25                             No
+   74  LANGUAGE        Character              15                             No
+   75  SKILL1          Character               2                             No
+   76  SKILL2          Character               2                             No
+   77  SKILL3          Character               2                             No
+   78  SKILL4          Character               2                             No
+   79  TAXCODE         Character               3                             No
+   80  ACCTCODE        Character              15                             No
+   81  AWOL            Character               6                             No
+   82  DISMISS         Character               6                             No
+   83  ASTART          Date                    8                             No
+   84  AEND            Date                    8                             No
+   85  ADAYS           Numeric                 2                             No
+   86  DSTART          Date                    8                             No
+   87  DEND            Date                    8                             No
+   88  DDAYS           Numeric                 2                             No
+   89  EMRNAME         Character              25                             No
+   90  EMRTEL          Character              15                             No
+   91  EMRADDR         Character              60                             No
+   92  GUARDEXP        Numeric                 5      2                      No
+   93  COMTAXNO        Character              10                             No
+   94  COMTAXDATE      Date                    8                             No
+   95  COMTAX_AT       Character              30                             No
+   96  BLOODTYPE       Character              10                             No
+   97  MARKS           Character              60                             No
+   98  COMPLEXION      Character              10                             No
+   99  EXP_NBI         Date                    8                             No
+  100  EXP_POLICE      Date                    8                             No
+  101  EXP_PNP         Date                    8                             No
+  102  EXP_BRGY        Date                    8                             No
+  103  EXP_COURT       Date                    8                             No
+  104  EXP_NEURO       Date                    8                             No
+  105  EXP_DRUG        Date                    8                             No
+  106  W_BIRTHC        Logical                 1                             No
+  107  W_CLOSINGR      Logical                 1                             No
+  108  W_TRNCERT       Logical                 1                             No
+  109  W_PRELIC        Logical                 1                             No
+  110  W_CERTEMP       Logical                 1                             No
+  111  W_MEDEXAM       Logical                 1                             No
+  112  GKERATE         Numeric                 6      2                      No
+** Total **                                 1126
+
+Structure for table:    D:\ARTSIS\GSIA\PIS\EMPLOY.DBF
+Number of data records: 1594    
+Date of last update:    11/18/03
+Code Page:              0       
+Field  Field Name      Type                Width    Dec   Index   Collate Nulls    Next    Step
+    1  EMPNUMBER       Character               5                             No
+    2  COMP            Character              60                             No
+    3  ADDR1           Character              60                             No
+    4  ADDR2           Character              60                             No
+    5  TEL             Character              15                             No
+    6  POSI            Character              30                             No
+    7  FROM            Character              10                             No
+    8  TO              Character              10                             No
+    9  SAL             Numeric                10      2                      No
+   10  REM1            Character              60                             No
+   11  REM2            Character              60                             No
+** Total **                                  381

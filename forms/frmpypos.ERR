@@ -1,0 +1,2 @@
+REPORT FORM rptPYPos PREVIEW   TO PRINTER PROMPT   NODIALOG FOR   ALLTRIM(trn) ==   lctrn
+Error in line 122 of Frm12.Scmdprint1.Click (record 16): Missing comma (,).

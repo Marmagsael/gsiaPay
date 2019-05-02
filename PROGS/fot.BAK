@@ -1,0 +1,81 @@
+**
+PROCEDURE OT
+LPARAMETERS xclientrate,  ;
+            xcolarate, xcolaflag
+FOR x = 1 TO FCOUNT('xCurPayLst')
+     mfldname = ALLTRIM(FIELD(x,  ;
+                'xCurPayLst'))
+     IF  .NOT. (RIGHT(mfldname,  ;
+         2) = "_1" .OR.  ;
+         RIGHT(mfldname, 2) =  ;
+         "_2")
+          LOOP
+     ENDIF
+     SELECT xcurpaylst
+     IF 	&mfldname < 1
+          LOOP
+     ENDIF
+     mhrs			= &mfldname
+     msourceactcd = mfldname
+     mdistacctcd = LEFT(mfldname,  ;
+                   LEN(mfldname) -  ;
+                   2)
+     mempno = ALLTRIM(xcurpaylst.empnumber)
+     SELECT * FROM CurOTAcct  ;
+              WHERE  ;
+              ALLTRIM(acctnumber) ==  ;
+              ALLTRIM(mdistacctcd)  ;
+              INTO CURSOR  ;
+              xOTRAte
+     IF RECCOUNT('xOTRate') = 0
+          LOOP
+     ENDIF
+     mmultiplier = xotrate.otrate
+     mislegalholiday = NVL(xotrate.islegalholiday,  ;
+                       0)
+     SELECT * FROM CurPayLst  ;
+              WHERE  ;
+              ALLTRIM(empnumber) ==  ;
+              mempno INTO CURSOR  ;
+              xBasicRAte
+     IF xbasicrate.basicrate = 0
+          mrate = xclientrate
+     ELSE
+          IF xbasicrate.rateid =  ;
+             2
+               mrate = xbasicrate.basicrate
+          ENDIF
+          IF xbasicrate.rateid =  ;
+             3
+               mrate = xbasicrate.basicrate /  ;
+                       15
+          ENDIF
+          IF xbasicrate.rateid =  ;
+             1
+               mrate = xbasicrate.basicrate /  ;
+                       30
+          ENDIF
+     ENDIF
+     xacctnumber = mdistacctcd
+     SELECT * FROM CurCOA WHERE  ;
+              acctnumber =  ;
+              xacctnumber INTO  ;
+              CURSOR x
+     IF x.timedmode = 1
+          mrate = mrate / 8
+     ENDIF
+     IF xcolaflag = 1 .AND.  ;
+        mislegalholiday = 1
+          mrate = mrate
+     ENDIF
+     SELECT xcurpaylst
+     mamt = mhrs * mmultiplier *  ;
+            mrate
+     REPLACE &mdistacctcd WITH mamt
+     SELECT xotrate
+     USE
+     SELECT xbasicrate
+     USE
+ENDFOR
+ENDPROC
+**

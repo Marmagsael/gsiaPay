@@ -1,0 +1,4 @@
+REPORT FORM rptAcctTotals PREVIEW   TO PRINTER PROMPT NODIALOG   FOR ALLTRIM(isatm) == "1"
+Error in line 267 of Frm12.Scmdprint1.Click (record 13): Missing comma (,).
+REPORT FORM rptAcctTotals1   PREVIEW TO PRINTER PROMPT   NODIALOG FOR   ALLTRIM(isatm) == "0"
+Error in line 273 of Frm12.Scmdprint1.Click (record 13): Missing comma (,).

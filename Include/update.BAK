@@ -1,0 +1,11 @@
+update `emeissecpis`.`client` set sgcode = ifnull((select sgcode FROM `pngpa_pay`.`salgrade` where dailyRate = client.rate limit 1),0)
+  where Rate > 0
+  
+update `emeissecpis`.`empmas` set iswithSSS = 1, iswithPHIC = 1, iswithPagibig = 1 
+
+universal payroll v2018.43 
+	- Correction in 13 Month Computation 
+	- 13 Month Voucher Integration 
+	
+	
+	

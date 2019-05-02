@@ -1,0 +1,1151 @@
+
+Structure for table:    D:\ARTSIS2\GSIA\PAY\ALPHA06.DBF
+Number of data records: 5636    
+Date of last update:    01/31/07
+Code Page:              0       
+Field  Field Name      Type                Width    Dec   Index   Collate Nulls    Next    Step
+    1  PERIOD          Character               4                             No
+    2  EMPNUMBER       Character               5                             No
+    3  EMPLASTNM       Character              15                             No
+    4  EMPFIRSTNM      Character              15                             No
+    5  EMPMIDNM        Character              15                             No
+    6  EMPSTAT         Character               1                             No
+    7  NT13TH          Numeric                 9      2                      No
+    8  NTSSS           Numeric                 9      2                      No
+    9  NTMED           Numeric                 9      2                      No
+   10  NTIBIG          Numeric                 9      2                      No
+   11  NTOTHER         Numeric                 9      2                      No
+   12  TX13TH          Numeric                 9      2                      No
+   13  TXSALARY        Numeric                10      2                      No
+   14  EXEMPT          Numeric                 9      2                      No
+   15  PREMIUM         Numeric                 9      2                      No
+   16  TAXDUE          Numeric                 9      2                      No
+   17  TAXWHELD        Numeric                 9      2                      No
+   18  ADJUSTMENT      Numeric                 9      2                      No
+   19  G01             Numeric                 9      2                      No
+   20  G02             Numeric                 9      2                      No
+   21  G03             Numeric                 9      2                      No
+   22  G04             Numeric                 9      2                      No
+   23  G05             Numeric                 9      2                      No
+   24  G06             Numeric                 9      2                      No
+   25  G07             Numeric                 9      2                      No
+   26  G08             Numeric                 9      2                      No
+   27  G09             Numeric                 9      2                      No
+   28  G10             Numeric                 9      2                      No
+   29  G11             Numeric                 9      2                      No
+   30  G12             Numeric                 9      2                      No
+   31  G13             Numeric                 9      2                      No
+   32  G14             Numeric                 9      2                      No
+   33  G15             Numeric                 9      2                      No
+   34  G16             Numeric                 9      2                      No
+   35  G17             Numeric                 9      2                      No
+   36  G18             Numeric                 9      2                      No
+   37  G19             Numeric                 9      2                      No
+   38  G20             Numeric                 9      2                      No
+   39  G21             Numeric                 9      2                      No
+   40  G22             Numeric                 9      2                      No
+   41  G23             Numeric                 9      2                      No
+   42  G24             Numeric                 9      2                      No
+   43  W01             Numeric                 9      2                      No
+   44  W02             Numeric                 9      2                      No
+   45  W03             Numeric                 9      2                      No
+   46  W04             Numeric                 9      2                      No
+   47  W05             Numeric                 9      2                      No
+   48  W06             Numeric                 9      2                      No
+   49  W07             Numeric                 9      2                      No
+   50  W08             Numeric                 9      2                      No
+   51  W09             Numeric                 9      2                      No
+   52  W10             Numeric                 9      2                      No
+   53  W11             Numeric                 9      2                      No
+   54  W12             Numeric                 9      2                      No
+   55  W13             Numeric                 9      2                      No
+   56  W14             Numeric                 9      2                      No
+   57  W15             Numeric                 9      2                      No
+   58  W16             Numeric                 9      2                      No
+   59  W17             Numeric                 9      2                      No
+   60  W18             Numeric                 9      2                      No
+   61  W19             Numeric                 9      2                      No
+   62  W20             Numeric                 9      2                      No
+   63  W21             Numeric                 9      2                      No
+   64  W22             Numeric                 9      2                      No
+   65  W23             Numeric                 9      2                      No
+   66  W24             Numeric                 9      2                      No
+** Total **                                  597
+
+Structure for table:    D:\ARTSIS2\GSIA\PAY\ALPHA.DBF
+Number of data records: 7868    
+Date of last update:    04/26/07
+Code Page:              0       
+Field  Field Name      Type                Width    Dec   Index   Collate Nulls    Next    Step
+    1  PERIOD          Character               4                             No
+    2  EMPNUMBER       Character               5                             No
+    3  EMPLASTNM       Character              15                             No
+    4  EMPFIRSTNM      Character              15                             No
+    5  EMPMIDNM        Character              15                             No
+    6  EMPSTAT         Character               1                             No
+    7  NT13TH          Numeric                 9      2                      No
+    8  NTSSS           Numeric                 9      2                      No
+    9  NTMED           Numeric                 9      2                      No
+   10  NTIBIG          Numeric                 9      2                      No
+   11  NTOTHER         Numeric                 9      2                      No
+   12  TX13TH          Numeric                 9      2                      No
+   13  TXSALARY        Numeric                10      2                      No
+   14  EXEMPT          Numeric                 9      2                      No
+   15  PREMIUM         Numeric                 9      2                      No
+   16  TAXDUE          Numeric                 9      2                      No
+   17  TAXWHELD        Numeric                 9      2                      No
+   18  ADJUSTMENT      Numeric                 9      2                      No
+   19  G01             Numeric                 9      2                      No
+   20  G02             Numeric                 9      2                      No
+   21  G03             Numeric                 9      2                      No
+   22  G04             Numeric                 9      2                      No
+   23  G05             Numeric                 9      2                      No
+   24  G06             Numeric                 9      2                      No
+   25  G07             Numeric                 9      2                      No
+   26  G08             Numeric                 9      2                      No
+   27  G09             Numeric                 9      2                      No
+   28  G10             Numeric                 9      2                      No
+   29  G11             Numeric                 9      2                      No
+   30  G12             Numeric                 9      2                      No
+   31  G13             Numeric                 9      2                      No
+   32  G14             Numeric                 9      2                      No
+   33  G15             Numeric                 9      2                      No
+   34  G16             Numeric                 9      2                      No
+   35  G17             Numeric                 9      2                      No
+   36  G18             Numeric                 9      2                      No
+   37  G19             Numeric                 9      2                      No
+   38  G20             Numeric                 9      2                      No
+   39  G21             Numeric                 9      2                      No
+   40  G22             Numeric                 9      2                      No
+   41  G23             Numeric                 9      2                      No
+   42  G24             Numeric                 9      2                      No
+   43  W01             Numeric                 9      2                      No
+   44  W02             Numeric                 9      2                      No
+   45  W03             Numeric                 9      2                      No
+   46  W04             Numeric                 9      2                      No
+   47  W05             Numeric                 9      2                      No
+   48  W06             Numeric                 9      2                      No
+   49  W07             Numeric                 9      2                      No
+   50  W08             Numeric                 9      2                      No
+   51  W09             Numeric                 9      2                      No
+   52  W10             Numeric                 9      2                      No
+   53  W11             Numeric                 9      2                      No
+   54  W12             Numeric                 9      2                      No
+   55  W13             Numeric                 9      2                      No
+   56  W14             Numeric                 9      2                      No
+   57  W15             Numeric                 9      2                      No
+   58  W16             Numeric                 9      2                      No
+   59  W17             Numeric                 9      2                      No
+   60  W18             Numeric                 9      2                      No
+   61  W19             Numeric                 9      2                      No
+   62  W20             Numeric                 9      2                      No
+   63  W21             Numeric                 9      2                      No
+   64  W22             Numeric                 9      2                      No
+   65  W23             Numeric                 9      2                      No
+   66  W24             Numeric                 9      2                      No
+** Total **                                  597
+
+Structure for table:    D:\ARTSIS2\GSIA\PAY\DEDN.DBF
+Number of data records: 25      
+Date of last update:    08/22/06
+Code Page:              0       
+Field  Field Name      Type                Width    Dec   Index   Collate Nulls    Next    Step
+    1  DEDNCODE        Character               2                             No
+    2  DEDNDESC        Character              20                             No
+    3  SHOWN           Logical                 1                             No
+    4  FREQ            Numeric                 1                             No
+** Total **                                   25
+
+Structure for table:    D:\ARTSIS2\GSIA\PAY\DERICK.DBF
+Number of data records: 124     
+Date of last update:    10/05/04
+Code Page:              0       
+Field  Field Name      Type                Width    Dec   Index   Collate Nulls    Next    Step
+    1  PERIOD          Character               6                             No
+    2  BATCH           Character               2                             No
+    3  PAYTYPE         Character               1                             No
+    4  CLCODE          Character               5                             No
+    5  EMPNUMBER       Character               5                             No
+    6  POSTCODE        Character               5                             No
+    7  UT_HRS          Numeric                 6      2                      No
+    8  UT_AMT          Numeric                 9      2                      No
+    9  REG_HRS         Numeric                 6      2                      No
+   10  REG_AMT         Numeric                 9      2                      No
+   11  OT_HRS          Numeric                 6      2                      No
+   12  OT_AMT          Numeric                 7      2                      No
+   13  ECOLA_DAYS      Numeric                 5      2                      No
+   14  ND_HRS          Numeric                 6      2                      No
+   15  ND_AMT          Numeric                 6      2                      No
+   16  RD_HRS          Numeric                 5      2                      No
+   17  RD_AMT          Numeric                 7      2                      No
+   18  RDOT_HRS        Numeric                 5      2                      No
+   19  RDOT_AMT        Numeric                 7      2                      No
+   20  RDND_HRS        Numeric                 5      2                      No
+   21  RDND_AMT        Numeric                 6      2                      No
+   22  LH_HRS          Numeric                 5      2                      No
+   23  LH_AMT          Numeric                 7      2                      No
+   24  LHOT_HRS        Numeric                 5      2                      No
+   25  LHOT_AMT        Numeric                 7      2                      No
+   26  LHND_HRS        Numeric                 5      2                      No
+   27  LHND_AMT        Numeric                 6      2                      No
+   28  SH_HRS          Numeric                 5      2                      No
+   29  SH_AMT          Numeric                 7      2                      No
+   30  SHOT_HRS        Numeric                 5      2                      No
+   31  SHOT_AMT        Numeric                 7      2                      No
+   32  SHND_HRS        Numeric                 5      2                      No
+   33  SHND_AMT        Numeric                 6      2                      No
+   34  RDLH_HRS        Numeric                 5      2                      No
+   35  RDLH_AMT        Numeric                 7      2                      No
+   36  RDLHOT_HRS      Numeric                 5      2                      No
+   37  RDLHOT_AMT      Numeric                 7      2                      No
+   38  RDLHND_HRS      Numeric                 5      2                      No
+   39  RDLHND_AMT      Numeric                 6      2                      No
+   40  RDSH_HRS        Numeric                 5      2                      No
+   41  RDSH_AMT        Numeric                 7      2                      No
+   42  RDSHOT_HRS      Numeric                 5      2                      No
+   43  RDSHOT_AMT      Numeric                 7      2                      No
+   44  RDSHND_HRS      Numeric                 5      2                      No
+   45  RDSHND_AMT      Numeric                 6      2                      No
+   46  EARN01          Numeric                 8      2                      No
+   47  EARN02          Numeric                 8      2                      No
+   48  EARN03          Numeric                 8      2                      No
+   49  EARN04          Numeric                 8      2                      No
+   50  EARN05          Numeric                 8      2                      No
+   51  EARN06          Numeric                 8      2                      No
+   52  EARN07          Numeric                 8      2                      No
+   53  EARN08          Numeric                 8      2                      No
+   54  EARN09          Numeric                 8      2                      No
+   55  EARN10          Numeric                 8      2                      No
+   56  OTH_EARN        Numeric                 9      2                      No
+   57  TAX_EARN        Numeric                12      2                      No
+   58  TAX_AMT         Numeric                 8      2                      No
+   59  GOV_AMT         Numeric                 8      2                      No
+   60  TARABS_HRS      Numeric                 7      2                      No
+   61  TARABS_AMT      Numeric                10      2                      No
+   62  FSSSEE          Numeric                 6      2                      No
+   63  FSSSER          Numeric                 6      2                      No
+   64  FMEDEE          Numeric                 6      2                      No
+   65  FMEDER          Numeric                 6      2                      No
+   66  FECC            Numeric                 6      2                      No
+   67  FIBIGEE         Numeric                 6      2                      No
+   68  FIBIGER         Numeric                 6      2                      No
+   69  FWTAX           Numeric                 7      2                      No
+   70  DEDN01          Numeric                 8      2                      No
+   71  DEDN02          Numeric                 8      2                      No
+   72  DEDN03          Numeric                 8      2                      No
+   73  DEDN04          Numeric                 8      2                      No
+   74  DEDN05          Numeric                 8      2                      No
+   75  DEDN06          Numeric                 8      2                      No
+   76  DEDN07          Numeric                 8      2                      No
+   77  DEDN08          Numeric                 8      2                      No
+   78  DEDN09          Numeric                 8      2                      No
+   79  DEDN10          Numeric                 8      2                      No
+   80  DEDN11          Numeric                 8      2                      No
+   81  DEDN12          Numeric                 8      2                      No
+   82  DEDN13          Numeric                 8      2                      No
+   83  DEDN14          Numeric                 8      2                      No
+   84  DEDN15          Numeric                 8      2                      No
+   85  DEDN16          Numeric                 8      2                      No
+   86  DEDN17          Numeric                 8      2                      No
+   87  DEDN18          Numeric                 8      2                      No
+   88  DEDN19          Numeric                 8      2                      No
+   89  DEDN20          Numeric                 8      2                      No
+   90  OTH_DEDN        Numeric                 9      2                      No
+   91  GROSSPAY        Numeric                12      2                      No
+   92  TOTEARN         Numeric                10      2                      No
+   93  TOTDEDN         Numeric                10      2                      No
+   94  NETPAY          Numeric                12      2                      No
+   95  POSTED          Character               1                             No
+   96  COPIED          Logical                 1                             No
+   97  TAXDUE          Numeric                 9      2                      No
+** Total **                                  667
+
+Structure for table:    D:\ARTSIS2\GSIA\PAY\DTEMPAY.DBF
+Number of data records: 59      
+Date of last update:    04/27/07
+Code Page:              0       
+Field  Field Name      Type                Width    Dec   Index   Collate Nulls    Next    Step
+    1  PERIOD          Character               6                             No
+    2  BATCH           Character               2                             No
+    3  PAYTYPE         Character               1                             No
+    4  CLCODE          Character               5                             No
+    5  EMPNUMBER       Character               5                             No
+    6  POSTCODE        Character               5                             No
+    7  UT_HRS          Numeric                 6      2                      No
+    8  UT_AMT          Numeric                 9      2                      No
+    9  REG_HRS         Numeric                 6      2                      No
+   10  REG_AMT         Numeric                 9      2                      No
+   11  OT_HRS          Numeric                 6      2                      No
+   12  OT_AMT          Numeric                 7      2                      No
+   13  ECOLA_DAYS      Numeric                 5      2                      No
+   14  ND_HRS          Numeric                 6      2                      No
+   15  ND_AMT          Numeric                 6      2                      No
+   16  RD_HRS          Numeric                 5      2                      No
+   17  RD_AMT          Numeric                 7      2                      No
+   18  RDOT_HRS        Numeric                 5      2                      No
+   19  RDOT_AMT        Numeric                 7      2                      No
+   20  RDND_HRS        Numeric                 5      2                      No
+   21  RDND_AMT        Numeric                 6      2                      No
+   22  LH_HRS          Numeric                 5      2                      No
+   23  LH_AMT          Numeric                 7      2                      No
+   24  LHOT_HRS        Numeric                 5      2                      No
+   25  LHOT_AMT        Numeric                 7      2                      No
+   26  LHND_HRS        Numeric                 5      2                      No
+   27  LHND_AMT        Numeric                 6      2                      No
+   28  SH_HRS          Numeric                 5      2                      No
+   29  SH_AMT          Numeric                 7      2                      No
+   30  SHOT_HRS        Numeric                 5      2                      No
+   31  SHOT_AMT        Numeric                 7      2                      No
+   32  SHND_HRS        Numeric                 5      2                      No
+   33  SHND_AMT        Numeric                 6      2                      No
+   34  RDLH_HRS        Numeric                 5      2                      No
+   35  RDLH_AMT        Numeric                 7      2                      No
+   36  RDLHOT_HRS      Numeric                 5      2                      No
+   37  RDLHOT_AMT      Numeric                 7      2                      No
+   38  RDLHND_HRS      Numeric                 5      2                      No
+   39  RDLHND_AMT      Numeric                 6      2                      No
+   40  RDSH_HRS        Numeric                 5      2                      No
+   41  RDSH_AMT        Numeric                 7      2                      No
+   42  RDSHOT_HRS      Numeric                 5      2                      No
+   43  RDSHOT_AMT      Numeric                 7      2                      No
+   44  RDSHND_HRS      Numeric                 5      2                      No
+   45  RDSHND_AMT      Numeric                 6      2                      No
+   46  EARN01          Numeric                 8      2                      No
+   47  EARN02          Numeric                 8      2                      No
+   48  EARN03          Numeric                 8      2                      No
+   49  EARN04          Numeric                 8      2                      No
+   50  EARN05          Numeric                 8      2                      No
+   51  EARN06          Numeric                 8      2                      No
+   52  EARN07          Numeric                 8      2                      No
+   53  EARN08          Numeric                 8      2                      No
+   54  EARN09          Numeric                 8      2                      No
+   55  EARN10          Numeric                 8      2                      No
+   56  OTH_EARN        Numeric                 9      2                      No
+   57  TAX_EARN        Numeric                12      2                      No
+   58  TAX_AMT         Numeric                 8      2                      No
+   59  GOV_AMT         Numeric                 8      2                      No
+   60  TARABS_HRS      Numeric                 7      2                      No
+   61  TARABS_AMT      Numeric                10      2                      No
+   62  FSSSEE          Numeric                 6      2                      No
+   63  FSSSER          Numeric                 6      2                      No
+   64  FMEDEE          Numeric                 6      2                      No
+   65  FMEDER          Numeric                 6      2                      No
+   66  FECC            Numeric                 6      2                      No
+   67  FIBIGEE         Numeric                 6      2                      No
+   68  FIBIGER         Numeric                 6      2                      No
+   69  FWTAX           Numeric                 7      2                      No
+   70  DEDN01          Numeric                 8      2                      No
+   71  DEDN02          Numeric                 8      2                      No
+   72  DEDN03          Numeric                 8      2                      No
+   73  DEDN04          Numeric                 8      2                      No
+   74  DEDN05          Numeric                 8      2                      No
+   75  DEDN06          Numeric                 8      2                      No
+   76  DEDN07          Numeric                 8      2                      No
+   77  DEDN08          Numeric                 8      2                      No
+   78  DEDN09          Numeric                 8      2                      No
+   79  DEDN10          Numeric                 8      2                      No
+   80  DEDN11          Numeric                 8      2                      No
+   81  DEDN12          Numeric                 8      2                      No
+   82  DEDN13          Numeric                 8      2                      No
+   83  DEDN14          Numeric                 8      2                      No
+   84  DEDN15          Numeric                 8      2                      No
+   85  DEDN16          Numeric                 8      2                      No
+   86  DEDN17          Numeric                 8      2                      No
+   87  DEDN18          Numeric                 8      2                      No
+   88  DEDN19          Numeric                 8      2                      No
+   89  DEDN20          Numeric                 8      2                      No
+   90  OTH_DEDN        Numeric                 9      2                      No
+   91  GROSSPAY        Numeric                12      2                      No
+   92  TOTEARN         Numeric                10      2                      No
+   93  TOTDEDN         Numeric                10      2                      No
+   94  NETPAY          Numeric                12      2                      No
+   95  POSTED          Character               1                             No
+   96  COPIED          Logical                 1                             No
+   97  TAXDUE          Numeric                 9      2                      No
+** Total **                                  667
+
+Structure for table:    D:\ARTSIS2\GSIA\PAY\EARN.DBF
+Number of data records: 11      
+Date of last update:    12/23/05
+Code Page:              0       
+Field  Field Name      Type                Width    Dec   Index   Collate Nulls    Next    Step
+    1  EARNCODE        Character               2                             No
+    2  EARNDESC        Character              15                             No
+    3  SHOWN           Logical                 1                             No
+    4  TAXABLE         Logical                 1                             No
+    5  GOVNDEDN        Logical                 1                             No
+** Total **                                   21
+
+Structure for table:    D:\ARTSIS2\GSIA\PAY\EMP13.DBF
+Number of data records: 5       
+Date of last update:    12/21/06
+Code Page:              0       
+Field  Field Name      Type                Width    Dec   Index   Collate Nulls    Next    Step
+    1  EMPNUMBER       Character               5                             No
+    2  EMPLASTNM       Character              15                             No
+    3  EMPFIRSTNM      Character              15                             No
+    4  EMPMIDNM        Character              15                             No
+    5  EMPSTAT_        Character               1                             No
+    6  TAXCODE         Character               3                             No
+    7  TIN             Character              11                             No
+    8  SSS             Character              12                             No
+    9  ACCTCODE        Character              15                             No
+** Total **                                   93
+
+Structure for table:    D:\ARTSIS2\GSIA\PAY\GRDPAY.DBF
+Number of data records: 74333   
+Date of last update:    04/25/07
+Code Page:              0       
+Field  Field Name      Type                Width    Dec   Index   Collate Nulls    Next    Step
+    1  PERIOD          Character               6                             No
+    2  BATCH           Character               2                             No
+    3  PAYTYPE         Character               1                             No
+    4  CLCODE          Character               5                             No
+    5  EMPNUMBER       Character               5                             No
+    6  POSTCODE        Character               5                             No
+    7  UT_HRS          Numeric                 6      2                      No
+    8  UT_AMT          Numeric                 9      2                      No
+    9  REG_HRS         Numeric                 6      2                      No
+   10  REG_AMT         Numeric                 9      2                      No
+   11  OT_HRS          Numeric                 6      2                      No
+   12  OT_AMT          Numeric                 7      2                      No
+   13  ECOLA_DAYS      Numeric                 5      2                      No
+   14  ND_HRS          Numeric                 6      2                      No
+   15  ND_AMT          Numeric                 6      2                      No
+   16  RD_HRS          Numeric                 5      2                      No
+   17  RD_AMT          Numeric                 7      2                      No
+   18  RDOT_HRS        Numeric                 5      2                      No
+   19  RDOT_AMT        Numeric                 7      2                      No
+   20  RDND_HRS        Numeric                 5      2                      No
+   21  RDND_AMT        Numeric                 6      2                      No
+   22  LH_HRS          Numeric                 5      2                      No
+   23  LH_AMT          Numeric                 7      2                      No
+   24  LHOT_HRS        Numeric                 5      2                      No
+   25  LHOT_AMT        Numeric                 7      2                      No
+   26  LHND_HRS        Numeric                 5      2                      No
+   27  LHND_AMT        Numeric                 6      2                      No
+   28  SH_HRS          Numeric                 5      2                      No
+   29  SH_AMT          Numeric                 7      2                      No
+   30  SHOT_HRS        Numeric                 5      2                      No
+   31  SHOT_AMT        Numeric                 7      2                      No
+   32  SHND_HRS        Numeric                 5      2                      No
+   33  SHND_AMT        Numeric                 6      2                      No
+   34  RDLH_HRS        Numeric                 5      2                      No
+   35  RDLH_AMT        Numeric                 7      2                      No
+   36  RDLHOT_HRS      Numeric                 5      2                      No
+   37  RDLHOT_AMT      Numeric                 7      2                      No
+   38  RDLHND_HRS      Numeric                 5      2                      No
+   39  RDLHND_AMT      Numeric                 6      2                      No
+   40  RDSH_HRS        Numeric                 5      2                      No
+   41  RDSH_AMT        Numeric                 7      2                      No
+   42  RDSHOT_HRS      Numeric                 5      2                      No
+   43  RDSHOT_AMT      Numeric                 7      2                      No
+   44  RDSHND_HRS      Numeric                 5      2                      No
+   45  RDSHND_AMT      Numeric                 6      2                      No
+   46  EARN01          Numeric                 8      2                      No
+   47  EARN02          Numeric                 8      2                      No
+   48  EARN03          Numeric                 8      2                      No
+   49  EARN04          Numeric                 8      2                      No
+   50  EARN05          Numeric                 8      2                      No
+   51  EARN06          Numeric                 8      2                      No
+   52  EARN07          Numeric                 8      2                      No
+   53  EARN08          Numeric                 8      2                      No
+   54  EARN09          Numeric                 8      2                      No
+   55  EARN10          Numeric                 8      2                      No
+   56  OTH_EARN        Numeric                 9      2                      No
+   57  TAX_EARN        Numeric                12      2                      No
+   58  TAX_AMT         Numeric                 8      2                      No
+   59  GOV_AMT         Numeric                 8      2                      No
+   60  TARABS_HRS      Numeric                 7      2                      No
+   61  TARABS_AMT      Numeric                10      2                      No
+   62  FSSSEE          Numeric                 6      2                      No
+   63  FSSSER          Numeric                 6      2                      No
+   64  FMEDEE          Numeric                 6      2                      No
+   65  FMEDER          Numeric                 6      2                      No
+   66  FECC            Numeric                 6      2                      No
+   67  FIBIGEE         Numeric                 6      2                      No
+   68  FIBIGER         Numeric                 6      2                      No
+   69  FWTAX           Numeric                 8      2                      No
+   70  DEDN01          Numeric                 8      2                      No
+   71  DEDN02          Numeric                 8      2                      No
+   72  DEDN03          Numeric                 8      2                      No
+   73  DEDN04          Numeric                 8      2                      No
+   74  DEDN05          Numeric                 8      2                      No
+   75  DEDN06          Numeric                 8      2                      No
+   76  DEDN07          Numeric                 8      2                      No
+   77  DEDN08          Numeric                 8      2                      No
+   78  DEDN09          Numeric                 8      2                      No
+   79  DEDN10          Numeric                 8      2                      No
+   80  DEDN11          Numeric                 8      2                      No
+   81  DEDN12          Numeric                 8      2                      No
+   82  DEDN13          Numeric                 8      2                      No
+   83  DEDN14          Numeric                 8      2                      No
+   84  DEDN15          Numeric                 8      2                      No
+   85  DEDN16          Numeric                 8      2                      No
+   86  DEDN17          Numeric                 8      2                      No
+   87  DEDN18          Numeric                 8      2                      No
+   88  DEDN19          Numeric                 8      2                      No
+   89  DEDN20          Numeric                 8      2                      No
+   90  OTH_DEDN        Numeric                 9      2                      No
+   91  GROSSPAY        Numeric                12      2                      No
+   92  TOTEARN         Numeric                10      2                      No
+   93  TOTDEDN         Numeric                10      2                      No
+   94  NETPAY          Numeric                12      2                      No
+   95  POSTED          Character               1                             No
+   96  COPIED          Logical                 1                             No
+   97  TAXDUE          Numeric                 9      2                      No
+** Total **                                  668
+
+Structure for table:    D:\ARTSIS2\GSIA\PAY\GRDPAYA.DBF
+Number of data records: 785     
+Date of last update:    11/20/03
+Code Page:              0       
+Field  Field Name      Type                Width    Dec   Index   Collate Nulls    Next    Step
+    1  PERIOD          Character               6                             No
+    2  BATCH           Character               2                             No
+    3  PAYTYPE         Character               1                             No
+    4  CLCODE          Character               5                             No
+    5  EMPNUMBER       Character               5                             No
+    6  POSTCODE        Character               5                             No
+    7  UT_HRS          Numeric                 6      2                      No
+    8  UT_AMT          Numeric                 9      2                      No
+    9  REG_HRS         Numeric                 6      2                      No
+   10  REG_AMT         Numeric                 9      2                      No
+   11  OT_HRS          Numeric                 6      2                      No
+   12  OT_AMT          Numeric                 7      2                      No
+   13  ECOLA_DAYS      Numeric                 5      2                      No
+   14  ND_HRS          Numeric                 6      2                      No
+   15  ND_AMT          Numeric                 6      2                      No
+   16  RD_HRS          Numeric                 5      2                      No
+   17  RD_AMT          Numeric                 7      2                      No
+   18  RDOT_HRS        Numeric                 5      2                      No
+   19  RDOT_AMT        Numeric                 7      2                      No
+   20  RDND_HRS        Numeric                 5      2                      No
+   21  RDND_AMT        Numeric                 6      2                      No
+   22  LH_HRS          Numeric                 5      2                      No
+   23  LH_AMT          Numeric                 7      2                      No
+   24  LHOT_HRS        Numeric                 5      2                      No
+   25  LHOT_AMT        Numeric                 7      2                      No
+   26  LHND_HRS        Numeric                 5      2                      No
+   27  LHND_AMT        Numeric                 6      2                      No
+   28  SH_HRS          Numeric                 5      2                      No
+   29  SH_AMT          Numeric                 7      2                      No
+   30  SHOT_HRS        Numeric                 5      2                      No
+   31  SHOT_AMT        Numeric                 7      2                      No
+   32  SHND_HRS        Numeric                 5      2                      No
+   33  SHND_AMT        Numeric                 6      2                      No
+   34  RDLH_HRS        Numeric                 5      2                      No
+   35  RDLH_AMT        Numeric                 7      2                      No
+   36  RDLHOT_HRS      Numeric                 5      2                      No
+   37  RDLHOT_AMT      Numeric                 7      2                      No
+   38  RDLHND_HRS      Numeric                 5      2                      No
+   39  RDLHND_AMT      Numeric                 6      2                      No
+   40  RDSH_HRS        Numeric                 5      2                      No
+   41  RDSH_AMT        Numeric                 7      2                      No
+   42  RDSHOT_HRS      Numeric                 5      2                      No
+   43  RDSHOT_AMT      Numeric                 7      2                      No
+   44  RDSHND_HRS      Numeric                 5      2                      No
+   45  RDSHND_AMT      Numeric                 6      2                      No
+   46  EARN01          Numeric                 8      2                      No
+   47  EARN02          Numeric                 8      2                      No
+   48  EARN03          Numeric                 8      2                      No
+   49  EARN04          Numeric                 8      2                      No
+   50  EARN05          Numeric                 8      2                      No
+   51  EARN06          Numeric                 8      2                      No
+   52  EARN07          Numeric                 8      2                      No
+   53  EARN08          Numeric                 8      2                      No
+   54  EARN09          Numeric                 8      2                      No
+   55  EARN10          Numeric                 8      2                      No
+   56  OTH_EARN        Numeric                 9      2                      No
+   57  TAX_EARN        Numeric                12      2                      No
+   58  TAX_AMT         Numeric                 8      2                      No
+   59  GOV_AMT         Numeric                 8      2                      No
+   60  TARABS_HRS      Numeric                 7      2                      No
+   61  TARABS_AMT      Numeric                10      2                      No
+   62  FSSSEE          Numeric                 6      2                      No
+   63  FSSSER          Numeric                 6      2                      No
+   64  FMEDEE          Numeric                 6      2                      No
+   65  FMEDER          Numeric                 6      2                      No
+   66  FECC            Numeric                 6      2                      No
+   67  FIBIGEE         Numeric                 6      2                      No
+   68  FIBIGER         Numeric                 6      2                      No
+   69  FWTAX           Numeric                 7      2                      No
+   70  DEDN01          Numeric                 8      2                      No
+   71  DEDN02          Numeric                 8      2                      No
+   72  DEDN03          Numeric                 8      2                      No
+   73  DEDN04          Numeric                 8      2                      No
+   74  DEDN05          Numeric                 8      2                      No
+   75  DEDN06          Numeric                 8      2                      No
+   76  DEDN07          Numeric                 8      2                      No
+   77  DEDN08          Numeric                 8      2                      No
+   78  DEDN09          Numeric                 8      2                      No
+   79  DEDN10          Numeric                 8      2                      No
+   80  DEDN11          Numeric                 8      2                      No
+   81  DEDN12          Numeric                 8      2                      No
+   82  DEDN13          Numeric                 8      2                      No
+   83  DEDN14          Numeric                 8      2                      No
+   84  DEDN15          Numeric                 8      2                      No
+   85  DEDN16          Numeric                 8      2                      No
+   86  DEDN17          Numeric                 8      2                      No
+   87  DEDN18          Numeric                 8      2                      No
+   88  DEDN19          Numeric                 8      2                      No
+   89  DEDN20          Numeric                 8      2                      No
+   90  OTH_DEDN        Numeric                 9      2                      No
+   91  GROSSPAY        Numeric                12      2                      No
+   92  TOTEARN         Numeric                10      2                      No
+   93  TOTDEDN         Numeric                10      2                      No
+   94  NETPAY          Numeric                12      2                      No
+   95  POSTED          Character               1                             No
+   96  COPIED          Logical                 1                             No
+   97  TAXDUE          Numeric                 9      2                      No
+** Total **                                  667
+
+Structure for table:    D:\ARTSIS2\GSIA\PAY\HDMFLOAN.DBF
+Number of data records: 144     
+Date of last update:    05/25/04
+Code Page:              0       
+Field  Field Name      Type                Width    Dec   Index   Collate Nulls    Next    Step
+    1  HDMFID          Character              12                             No
+    2  APPLNO          Character               6                             No
+    3  LNAME           Character              17                             No
+    4  FNAME           Character              17                             No
+    5  MID             Character              17                             No
+    6  MONCOV          Character               6                             No
+    7  AMOUNT          Numeric                 9      2                      No
+    8  PFRNO           Character              15                             No
+    9  TAG             Character               1                             No
+   10  REM             Character               1                             No
+   11  LTYPE           Character               4                             No
+** Total **                                  106
+
+Structure for table:    D:\ARTSIS2\GSIA\PAY\HDMFPREM.DBF
+Number of data records: 1016    
+Date of last update:    04/13/07
+Code Page:              0       
+Field  Field Name      Type                Width    Dec   Index   Collate Nulls    Next    Step
+    1  EYERID          Character              15                             No
+    2  HDMFID          Character              12                             No
+    3  LNAME           Character              17                             No
+    4  FNAME           Character              17                             No
+    5  MID             Character              17                             No
+    6  PERCOV1         Character               6                             No
+    7  PFRNO           Character               8                             No
+    8  PFRDATE         Character               8                             No
+    9  PERAMT1         Numeric                 6      2                      No
+   10  PERAMT2         Numeric                 6      2                      No
+   11  PFRAMT          Numeric                10      2                      No
+** Total **                                  123
+
+Structure for table:    D:\ARTSIS2\GSIA\PAY\HOLIDAY.DBF
+Number of data records: 6       
+Date of last update:    05/16/03
+Code Page:              0       
+Field  Field Name      Type                Width    Dec   Index   Collate Nulls    Next    Step
+    1  H_DATE          Date                    8                             No
+    2  H_DESC          Character              20                             No
+    3  H_CODE          Character               1                             No
+** Total **                                   30
+
+Structure for table:    D:\ARTSIS2\GSIA\PAY\LEAVE.DBF
+Number of data records: 0       
+Date of last update:    05/17/03
+Code Page:              437     
+Field  Field Name      Type                Width    Dec   Index   Collate Nulls    Next    Step
+    1  LVNUMBER        Character              10                             No
+    2  LVDATE          Date                    8                             No
+    3  EMPNUMBER       Character               5                             No
+    4  LVCODE          Character               2                             No
+    5  START           Date                    8                             No
+    6  END             Date                    8                             No
+    7  NO_DAYS         Numeric                 2                             No
+    8  WITHPAY         Logical                 1                             No
+    9  ENCODEBY        Character              10                             No
+   10  ENCODEDT        Character              10                             No
+   11  CHANGEBY        Character              10                             No
+   12  CHANGEDT        Character              10                             No
+   13  POSTED          Logical                 1                             No
+** Total **                                   86
+
+Structure for table:    D:\ARTSIS2\GSIA\PAY\LOANS.DBF
+Number of data records: 32257   
+Date of last update:    04/27/07
+Code Page:              0       
+Field  Field Name      Type                Width    Dec   Index   Collate Nulls    Next    Step
+    1  NUMBER          Character              10                             No
+    2  EMPNUMBER       Character               5                             No
+    3  DATE            Date                    8                             No
+    4  DEDNCODE        Character               2                             No
+    5  DEDNDESC        Character              20                             No
+    6  AMOUNT          Numeric                 8      2                      No
+    7  AMORT           Numeric                 7      2                      No
+    8  BALANCE         Numeric                 8      2                      No
+    9  STATUS          Character               1                             No
+   10  ENCODEBY        Character              10                             No
+   11  ENCODEDT        Character              10                             No
+   12  CHANGEBY        Character              10                             No
+   13  CHANGEDT        Character              10                             No
+   14  POSTED          Logical                 1                             No
+   15  EMPLASTNM       Character              15                             No
+   16  POSTFLAG        Character              24                             No
+   17  REMARKS         Character              20                             No
+** Total **                                  170
+
+Structure for table:    D:\ARTSIS2\GSIA\PAY\MEDTBL.DBF
+Number of data records: 17      
+Date of last update:    09/20/05
+Code Page:              0       
+Field  Field Name      Type                Width    Dec   Index   Collate Nulls    Next    Step
+    1  FSTART          Numeric                 8      2                      No
+    2  FEND            Numeric                 8      2                      No
+    3  FMEDEE          Numeric                 6      2                      No
+    4  FMEDER          Numeric                 6      2                      No
+** Total **                                   29
+
+Structure for table:    D:\ARTSIS2\GSIA\PAY\MTEMPAY.DBF
+Number of data records: 0       
+Date of last update:    04/27/07
+Code Page:              0       
+Field  Field Name      Type                Width    Dec   Index   Collate Nulls    Next    Step
+    1  PERIOD          Character               6                             No
+    2  BATCH           Character               2                             No
+    3  PAYTYPE         Character               1                             No
+    4  CLCODE          Character               5                             No
+    5  EMPNUMBER       Character               5                             No
+    6  POSTCODE        Character               5                             No
+    7  UT_HRS          Numeric                 6      2                      No
+    8  UT_AMT          Numeric                 9      2                      No
+    9  REG_HRS         Numeric                 6      2                      No
+   10  REG_AMT         Numeric                 9      2                      No
+   11  OT_HRS          Numeric                 6      2                      No
+   12  OT_AMT          Numeric                 7      2                      No
+   13  ECOLA_DAYS      Numeric                 5      2                      No
+   14  ND_HRS          Numeric                 6      2                      No
+   15  ND_AMT          Numeric                 6      2                      No
+   16  RD_HRS          Numeric                 5      2                      No
+   17  RD_AMT          Numeric                 7      2                      No
+   18  RDOT_HRS        Numeric                 5      2                      No
+   19  RDOT_AMT        Numeric                 7      2                      No
+   20  RDND_HRS        Numeric                 5      2                      No
+   21  RDND_AMT        Numeric                 6      2                      No
+   22  LH_HRS          Numeric                 5      2                      No
+   23  LH_AMT          Numeric                 7      2                      No
+   24  LHOT_HRS        Numeric                 5      2                      No
+   25  LHOT_AMT        Numeric                 7      2                      No
+   26  LHND_HRS        Numeric                 5      2                      No
+   27  LHND_AMT        Numeric                 6      2                      No
+   28  SH_HRS          Numeric                 5      2                      No
+   29  SH_AMT          Numeric                 7      2                      No
+   30  SHOT_HRS        Numeric                 5      2                      No
+   31  SHOT_AMT        Numeric                 7      2                      No
+   32  SHND_HRS        Numeric                 5      2                      No
+   33  SHND_AMT        Numeric                 6      2                      No
+   34  RDLH_HRS        Numeric                 5      2                      No
+   35  RDLH_AMT        Numeric                 7      2                      No
+   36  RDLHOT_HRS      Numeric                 5      2                      No
+   37  RDLHOT_AMT      Numeric                 7      2                      No
+   38  RDLHND_HRS      Numeric                 5      2                      No
+   39  RDLHND_AMT      Numeric                 6      2                      No
+   40  RDSH_HRS        Numeric                 5      2                      No
+   41  RDSH_AMT        Numeric                 7      2                      No
+   42  RDSHOT_HRS      Numeric                 5      2                      No
+   43  RDSHOT_AMT      Numeric                 7      2                      No
+   44  RDSHND_HRS      Numeric                 5      2                      No
+   45  RDSHND_AMT      Numeric                 6      2                      No
+   46  EARN01          Numeric                 8      2                      No
+   47  EARN02          Numeric                 8      2                      No
+   48  EARN03          Numeric                 8      2                      No
+   49  EARN04          Numeric                 8      2                      No
+   50  EARN05          Numeric                 8      2                      No
+   51  EARN06          Numeric                 8      2                      No
+   52  EARN07          Numeric                 8      2                      No
+   53  EARN08          Numeric                 8      2                      No
+   54  EARN09          Numeric                 8      2                      No
+   55  EARN10          Numeric                 8      2                      No
+   56  OTH_EARN        Numeric                 9      2                      No
+   57  TAX_EARN        Numeric                12      2                      No
+   58  TAX_AMT         Numeric                 8      2                      No
+   59  GOV_AMT         Numeric                 8      2                      No
+   60  TARABS_HRS      Numeric                 7      2                      No
+   61  TARABS_AMT      Numeric                10      2                      No
+   62  FSSSEE          Numeric                 6      2                      No
+   63  FSSSER          Numeric                 6      2                      No
+   64  FMEDEE          Numeric                 6      2                      No
+   65  FMEDER          Numeric                 6      2                      No
+   66  FECC            Numeric                 6      2                      No
+   67  FIBIGEE         Numeric                 6      2                      No
+   68  FIBIGER         Numeric                 6      2                      No
+   69  FWTAX           Numeric                 8      2                      No
+   70  DEDN01          Numeric                 8      2                      No
+   71  DEDN02          Numeric                 8      2                      No
+   72  DEDN03          Numeric                 8      2                      No
+   73  DEDN04          Numeric                 8      2                      No
+   74  DEDN05          Numeric                 8      2                      No
+   75  DEDN06          Numeric                 8      2                      No
+   76  DEDN07          Numeric                 8      2                      No
+   77  DEDN08          Numeric                 8      2                      No
+   78  DEDN09          Numeric                 8      2                      No
+   79  DEDN10          Numeric                 8      2                      No
+   80  DEDN11          Numeric                 8      2                      No
+   81  DEDN12          Numeric                 8      2                      No
+   82  DEDN13          Numeric                 8      2                      No
+   83  DEDN14          Numeric                 8      2                      No
+   84  DEDN15          Numeric                 8      2                      No
+   85  DEDN16          Numeric                 8      2                      No
+   86  DEDN17          Numeric                 8      2                      No
+   87  DEDN18          Numeric                 8      2                      No
+   88  DEDN19          Numeric                 8      2                      No
+   89  DEDN20          Numeric                 8      2                      No
+   90  OTH_DEDN        Numeric                 9      2                      No
+   91  GROSSPAY        Numeric                12      2                      No
+   92  TOTEARN         Numeric                10      2                      No
+   93  TOTDEDN         Numeric                10      2                      No
+   94  NETPAY          Numeric                12      2                      No
+   95  POSTED          Character               1                             No
+   96  COPIED          Logical                 1                             No
+   97  TAXDUE          Numeric                 9      2                      No
+** Total **                                  668
+
+Structure for table:    D:\ARTSIS2\GSIA\PAY\NOACCT13.DBF
+Number of data records: 200     
+Date of last update:    12/21/06
+Code Page:              0       
+Field  Field Name      Type                Width    Dec   Index   Collate Nulls    Next    Step
+    1  EMPNUMBER       Character               5                             No
+    2  EMPLASTNM       Character              15                             No
+    3  EMPFIRSTNM      Character              15                             No
+    4  NETPAY          Numeric                12      2                      No
+    5  CLCODE          Character               5                             No
+** Total **                                   53
+
+Structure for table:    D:\ARTSIS2\GSIA\PAY\NOACCT.DBF
+Number of data records: 3       
+Date of last update:    04/26/07
+Code Page:              0       
+Field  Field Name      Type                Width    Dec   Index   Collate Nulls    Next    Step
+    1  EMPNUMBER       Character               5                             No
+    2  EMPLASTNM       Character              15                             No
+    3  EMPFIRSTNM      Character              15                             No
+    4  NETPAY          Numeric                12      2                      No
+    5  CLCODE          Character               5                             No
+** Total **                                   53
+
+Structure for table:    D:\ARTSIS2\GSIA\PAY\OTHDEDN.DBF
+Number of data records: 0       
+Date of last update:    05/13/00
+Code Page:              0       
+Field  Field Name      Type                Width    Dec   Index   Collate Nulls    Next    Step
+    1  NUMBER          Character              10                             No
+    2  EMPNUMBER       Character               5                             No
+    3  DATE            Date                    8                             No
+    4  DEDNCODE        Character               2                             No
+    5  DEDNDESC        Character              20                             No
+    6  AMOUNT          Numeric                 8      2                      No
+    7  STATUS          Character               1                             No
+    8  ENCODEBY        Character              10                             No
+    9  ENCODEDT        Character              10                             No
+   10  CHANGEBY        Character              10                             No
+   11  CHANGEDT        Character              10                             No
+   12  POSTED          Logical                 1                             No
+** Total **                                   96
+
+Structure for table:    D:\ARTSIS2\GSIA\PAY\OTHEARN.DBF
+Number of data records: 4403    
+Date of last update:    04/27/07
+Code Page:              0       
+Field  Field Name      Type                Width    Dec   Index   Collate Nulls    Next    Step
+    1  NUMBER          Character              10                             No
+    2  EMPNUMBER       Character               5                             No
+    3  DATE            Date                    8                             No
+    4  EARNCODE        Character               2                             No
+    5  EARNDESC        Character              20                             No
+    6  TAXABLE         Logical                 1                             No
+    7  AMOUNT          Numeric                 8      2                      No
+    8  STATUS          Character               1                             No
+    9  ENCODEBY        Character              10                             No
+   10  ENCODEDT        Character              10                             No
+   11  CHANGEBY        Character              10                             No
+   12  CHANGEDT        Character              10                             No
+   13  POSTED          Logical                 1                             No
+   14  CLCODE          Character               5                             No
+   15  EMPLASTNM       Character              15                             No
+   16  HOURS           Numeric                 7      2                      No
+   17  PERIOD          Character               6                             No
+** Total **                                  130
+
+Structure for table:    D:\ARTSIS2\GSIA\PAY\PAYSLIP.DBF
+Number of data records: 188     
+Date of last update:    04/26/07
+Code Page:              0       
+Field  Field Name      Type                Width    Dec   Index   Collate Nulls    Next    Step
+    1  EMPNUMBER       Character               5                             No
+    2  EMPLASTNM       Character              15                             No
+    3  EMPFIRSTNM      Character              15                             No
+    4  ACCTNUMBER      Character              15                             No
+    5  NETPAY          Numeric                12      2                      No
+** Total **                                   63
+
+Structure for table:    D:\ARTSIS2\GSIA\PAY\PAYSLP13.DBF
+Number of data records: 878     
+Date of last update:    12/21/06
+Code Page:              0       
+Field  Field Name      Type                Width    Dec   Index   Collate Nulls    Next    Step
+    1  EMPNUMBER       Character               5                             No
+    2  EMPLASTNM       Character              15                             No
+    3  EMPFIRSTNM      Character              15                             No
+    4  ACCTNUMBER      Character              15                             No
+    5  NETPAY          Numeric                12      2                      No
+** Total **                                   63
+
+Structure for table:    D:\ARTSIS2\GSIA\PAY\PAYTRAN.DBF
+Number of data records: 1885    
+Date of last update:    04/25/07
+Code Page:              0       
+Field  Field Name      Type                Width    Dec   Index   Collate Nulls    Next    Step
+    1  EMPNUMBER       Character               5                             No
+    2  YTD_EARN        Numeric                12      2                      No
+    3  YTD_WTAX        Numeric                12      2                      No
+    4  YTD_BASIC       Numeric                12      2                      No
+    5  PERIOD          Character               6                             No
+    6  EARN            Numeric                12      2                      No
+    7  WTAX            Numeric                12      2                      No
+    8  BASIC           Numeric                12      2                      No
+    9  CASHBOND        Character              24                             No
+   10  CABOND          Numeric                12      2                      No
+   11  INSPERIOD       Character               6                             No
+** Total **                                  126
+
+Structure for table:    D:\ARTSIS2\GSIA\PAY\SPLRATE.DBF
+Number of data records: 6       
+Date of last update:    09/03/03
+Code Page:              0       
+Field  Field Name      Type                Width    Dec   Index   Collate Nulls    Next    Step
+    1  RATECODE        Character               1                             No
+    2  DESC            Character              30                             No
+    3  REG_RATE        Numeric                 6      2                      No
+    4  OT_RATE         Numeric                 6      2                      No
+    5  ND_RATE         Numeric                 6      2                      No
+** Total **                                   50
+
+Structure for table:    D:\ARTSIS2\GSIA\PAY\SSSTBL.DBF
+Number of data records: 29      
+Date of last update:    04/14/07
+Code Page:              0       
+Field  Field Name      Type                Width    Dec   Index   Collate Nulls    Next    Step
+    1  FSTART          Numeric                 8      2                      No
+    2  FEND            Numeric                 8      2                      No
+    3  FSSSEE          Numeric                 6      2                      No
+    4  FSSSER          Numeric                 6      2                      No
+    5  FECC            Numeric                 6      2                      No
+** Total **                                   35
+
+Structure for table:    D:\ARTSIS2\GSIA\PAY\STAXTBL.DBF
+Number of data records: 16      
+Date of last update:    02/02/07
+Code Page:              0       
+Field  Field Name      Type                Width    Dec   Index   Collate Nulls    Next    Step
+    1  TAX_UNIT        Character               3                             No
+    2  NAME            Character              10                             No
+    3  EXEMPT_AMT      Numeric                 4      1                      No
+    4  AMT01           Numeric                 8      2                      No
+    5  AMT02           Numeric                 8      2                      No
+    6  AMT03           Numeric                 8      2                      No
+    7  AMT04           Numeric                 8      2                      No
+    8  AMT05           Numeric                 8      2                      No
+    9  AMT06           Numeric                 8      2                      No
+   10  AMT07           Numeric                 8      2                      No
+   11  SELECTABLE      Logical                 1                             No
+** Total **                                   75
+
+Structure for table:    D:\ARTSIS2\GSIA\PAY\TEMPPAY.DBF
+Number of data records: 59      
+Date of last update:    04/27/07
+Code Page:              0       
+Field  Field Name      Type                Width    Dec   Index   Collate Nulls    Next    Step
+    1  PERIOD          Character               6                             No
+    2  BATCH           Character               2                             No
+    3  PAYTYPE         Character               1                             No
+    4  CLCODE          Character               5                             No
+    5  EMPNUMBER       Character               5                             No
+    6  POSTCODE        Character               5                             No
+    7  UT_HRS          Numeric                 6      2                      No
+    8  UT_AMT          Numeric                 9      2                      No
+    9  REG_HRS         Numeric                 6      2                      No
+   10  REG_AMT         Numeric                 9      2                      No
+   11  OT_HRS          Numeric                 6      2                      No
+   12  OT_AMT          Numeric                 7      2                      No
+   13  ECOLA_DAYS      Numeric                 5      2                      No
+   14  ND_HRS          Numeric                 6      2                      No
+   15  ND_AMT          Numeric                 6      2                      No
+   16  RD_HRS          Numeric                 5      2                      No
+   17  RD_AMT          Numeric                 7      2                      No
+   18  RDOT_HRS        Numeric                 5      2                      No
+   19  RDOT_AMT        Numeric                 7      2                      No
+   20  RDND_HRS        Numeric                 5      2                      No
+   21  RDND_AMT        Numeric                 6      2                      No
+   22  LH_HRS          Numeric                 5      2                      No
+   23  LH_AMT          Numeric                 7      2                      No
+   24  LHOT_HRS        Numeric                 5      2                      No
+   25  LHOT_AMT        Numeric                 7      2                      No
+   26  LHND_HRS        Numeric                 5      2                      No
+   27  LHND_AMT        Numeric                 6      2                      No
+   28  SH_HRS          Numeric                 5      2                      No
+   29  SH_AMT          Numeric                 7      2                      No
+   30  SHOT_HRS        Numeric                 5      2                      No
+   31  SHOT_AMT        Numeric                 7      2                      No
+   32  SHND_HRS        Numeric                 5      2                      No
+   33  SHND_AMT        Numeric                 6      2                      No
+   34  RDLH_HRS        Numeric                 5      2                      No
+   35  RDLH_AMT        Numeric                 7      2                      No
+   36  RDLHOT_HRS      Numeric                 5      2                      No
+   37  RDLHOT_AMT      Numeric                 7      2                      No
+   38  RDLHND_HRS      Numeric                 5      2                      No
+   39  RDLHND_AMT      Numeric                 6      2                      No
+   40  RDSH_HRS        Numeric                 5      2                      No
+   41  RDSH_AMT        Numeric                 7      2                      No
+   42  RDSHOT_HRS      Numeric                 5      2                      No
+   43  RDSHOT_AMT      Numeric                 7      2                      No
+   44  RDSHND_HRS      Numeric                 5      2                      No
+   45  RDSHND_AMT      Numeric                 6      2                      No
+   46  EARN01          Numeric                 8      2                      No
+   47  EARN02          Numeric                 8      2                      No
+   48  EARN03          Numeric                 8      2                      No
+   49  EARN04          Numeric                 8      2                      No
+   50  EARN05          Numeric                 8      2                      No
+   51  EARN06          Numeric                 8      2                      No
+   52  EARN07          Numeric                 8      2                      No
+   53  EARN08          Numeric                 8      2                      No
+   54  EARN09          Numeric                 8      2                      No
+   55  EARN10          Numeric                 8      2                      No
+   56  OTH_EARN        Numeric                 9      2                      No
+   57  TAX_EARN        Numeric                12      2                      No
+   58  TAX_AMT         Numeric                 8      2                      No
+   59  GOV_AMT         Numeric                 8      2                      No
+   60  TARABS_HRS      Numeric                 7      2                      No
+   61  TARABS_AMT      Numeric                10      2                      No
+   62  FSSSEE          Numeric                 6      2                      No
+   63  FSSSER          Numeric                 6      2                      No
+   64  FMEDEE          Numeric                 6      2                      No
+   65  FMEDER          Numeric                 6      2                      No
+   66  FECC            Numeric                 6      2                      No
+   67  FIBIGEE         Numeric                 6      2                      No
+   68  FIBIGER         Numeric                 6      2                      No
+   69  FWTAX           Numeric                 8      2                      No
+   70  DEDN01          Numeric                 8      2                      No
+   71  DEDN02          Numeric                 8      2                      No
+   72  DEDN03          Numeric                 8      2                      No
+   73  DEDN04          Numeric                 8      2                      No
+   74  DEDN05          Numeric                 8      2                      No
+   75  DEDN06          Numeric                 8      2                      No
+   76  DEDN07          Numeric                 8      2                      No
+   77  DEDN08          Numeric                 8      2                      No
+   78  DEDN09          Numeric                 8      2                      No
+   79  DEDN10          Numeric                 8      2                      No
+   80  DEDN11          Numeric                 8      2                      No
+   81  DEDN12          Numeric                 8      2                      No
+   82  DEDN13          Numeric                 8      2                      No
+   83  DEDN14          Numeric                 8      2                      No
+   84  DEDN15          Numeric                 8      2                      No
+   85  DEDN16          Numeric                 8      2                      No
+   86  DEDN17          Numeric                 8      2                      No
+   87  DEDN18          Numeric                 8      2                      No
+   88  DEDN19          Numeric                 8      2                      No
+   89  DEDN20          Numeric                 8      2                      No
+   90  OTH_DEDN        Numeric                 9      2                      No
+   91  GROSSPAY        Numeric                12      2                      No
+   92  TOTEARN         Numeric                10      2                      No
+   93  TOTDEDN         Numeric                10      2                      No
+   94  NETPAY          Numeric                12      2                      No
+   95  POSTED          Character               1                             No
+   96  COPIED          Logical                 1                             No
+   97  TAXDUE          Numeric                 9      2                      No
+** Total **                                  668
+
+Structure for table:    D:\ARTSIS2\GSIA\PAY\TM2006.DBF
+Number of data records: 1089    
+Date of last update:    03/17/07
+Code Page:              0       
+Field  Field Name      Type                Width    Dec   Index   Collate Nulls    Next    Step
+    1  EMPNUMBER       Character               5                             No
+    2  EMPLASTNM       Character              15                             No
+    3  EMPFIRSTNM      Character              15                             No
+    4  ACCTNUMBER      Character              15                             No
+    5  NETPAY          Numeric                12      2                      No
+** Total **                                   63
+
+Structure for table:    D:\ARTSIS2\GSIA\PAY\TMFILE.DBF
+Number of data records: 5488    
+Date of last update:    04/26/07
+Code Page:              0       
+Field  Field Name      Type                Width    Dec   Index   Collate Nulls    Next    Step
+    1  EMPNUMBER       Character               5                             No
+    2  NAME            Character              24                             No
+    3  CLNUMBER        Character               5                             No
+    4  RATE            Numeric                 8      2                      No
+    5  PERIOD          Character               6                             No
+    6  NODAYS01        Numeric                 5      2                      No
+    7  BASIC01         Numeric                 8      2                      No
+    8  NODAYS02        Numeric                 5      2                      No
+    9  BASIC02         Numeric                 8      2                      No
+   10  NODAYS03        Numeric                 5      2                      No
+   11  BASIC03         Numeric                 8      2                      No
+   12  NODAYS04        Numeric                 5      2                      No
+   13  BASIC04         Numeric                 8      2                      No
+   14  NODAYS05        Numeric                 5      2                      No
+   15  BASIC05         Numeric                 8      2                      No
+   16  NODAYS06        Numeric                 5      2                      No
+   17  BASIC06         Numeric                 8      2                      No
+   18  NODAYS07        Numeric                 5                             No
+   19  BASIC07         Numeric                 8      2                      No
+   20  NODAYS08        Numeric                 5      2                      No
+   21  BASIC08         Numeric                 8      2                      No
+   22  NODAYS09        Numeric                 5      2                      No
+   23  BASIC09         Numeric                 8      2                      No
+   24  NODAYS10        Numeric                 5      2                      No
+   25  BASIC10         Numeric                 8      2                      No
+   26  NODAYS11        Numeric                 5      2                      No
+   27  BASIC11         Numeric                 8      2                      No
+   28  NODAYS12        Numeric                 5      2                      No
+   29  BASIC12         Numeric                 8      2                      No
+   30  NODAYS13        Numeric                 5      2                      No
+   31  BASIC13         Numeric                 8      2                      No
+   32  NODAYS14        Numeric                 5      2                      No
+   33  BASIC14         Numeric                 8      2                      No
+   34  NODAYS15        Numeric                 5      2                      No
+   35  BASIC15         Numeric                 8      2                      No
+   36  NODAYS16        Numeric                 5      2                      No
+   37  BASIC16         Numeric                 8      2                      No
+   38  NODAYS17        Numeric                 5      2                      No
+   39  BASIC17         Numeric                 8      2                      No
+   40  NODAYS18        Numeric                 5      2                      No
+   41  BASIC18         Numeric                 8      2                      No
+   42  NODAYS19        Numeric                 5      2                      No
+   43  BASIC19         Numeric                 8      2                      No
+   44  NODAYS20        Numeric                 5      2                      No
+   45  BASIC20         Numeric                 8      2                      No
+   46  NODAYS21        Numeric                 5      2                      No
+   47  BASIC21         Numeric                 8      2                      No
+   48  NODAYS22        Numeric                 5      2                      No
+   49  BASIC22         Numeric                 8      2                      No
+   50  NODAYS23        Numeric                 5      2                      No
+   51  BASIC23         Numeric                 8      2                      No
+   52  NODAYS24        Numeric                 5      2                      No
+   53  BASIC24         Numeric                 8      2                      No
+** Total **                                  361
+
+Structure for table:    D:\ARTSIS2\GSIA\PAY\YTAXTBL.DBF
+Number of data records: 14      
+Date of last update:    03/21/02
+Code Page:              0       
+Field  Field Name      Type                Width    Dec   Index   Collate Nulls    Next    Step
+    1  TAX_UNIT        Character               3                             No
+    2  NAME            Character              10                             No
+    3  EXEMPT_AMT      Numeric                 4      1                      No
+    4  AMT01           Numeric                 9      2                      No
+    5  AMT02           Numeric                 9      2                      No
+    6  AMT03           Numeric                 9      2                      No
+    7  AMT04           Numeric                 9      2                      No
+    8  AMT05           Numeric                 9      2                      No
+    9  AMT06           Numeric                 9      2                      No
+   10  AMT07           Numeric                 9      2                      No
+   11  SELECTABLE      Logical                 1                             No
+** Total **                                   82

@@ -1,0 +1,6 @@
+REPORT FORM   rptotherearn1.frx   PREVIEW TO   PRINTER PROMPT   NODIALOG
+Error in line 60 of frmEarnings.form1.Command1.Click (record 41): Missing comma (,).
+REPORT FORM   rptotherearn2.frx   PREVIEW TO   PRINTER PROMPT   NODIALOG
+Error in line 75 of frmEarnings.form1.Command1.Click (record 41): Missing comma (,).
+REPORT FORM   rptotherearn3.frx   PREVIEW TO   PRINTER PROMPT   NODIALOG
+Error in line 90 of frmEarnings.form1.Command1.Click (record 41): Missing comma (,).

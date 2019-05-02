@@ -1,0 +1,2 @@
+SELECT *, !_err=0x1A0F_!  (xshow_, 'I',   1, .NULL.)   AS show_   FROM   curCharOfAcct   INTO CURSOR   curCharOfAcct   READWRITE
+Error in line 41 of PAYROLLNEW.grdCOA.Init (record 7): Command contains unrecognized phrase/keyword.

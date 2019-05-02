@@ -1,0 +1,32 @@
+**
+PROCEDURE ToPDF
+PARAMETER creportname AS STRING,  ;
+          cfilter AS STRING
+TRY
+     IF cfilter == .F.
+          cfilter = ""
+     ENDIF
+CATCH
+ENDTRY
+SET PROCEDURE TO utilityReportListener.prg;
+ADDITIVE
+LOCAL loxfrx, lnretval
+loxfrx = xfrx("XFRX#LISTENER")
+lnretval = loxfrx.setparams("output.pdf",  ,  ;
+           .T.,  ,  ,  , "PDF")
+IF lnretval = 0
+     ccmd = "REPORT FORM " +  ;
+            creportname + " " +  ;
+            cfilter +  ;
+            " OBJECT loxfrx"
+     &cCmd
+     RUN (   ;
+         "C:\Program Files\Foxit Software\Foxit Reader\Foxit Reader.exe"    ;
+         "output.pdf")
+ELSE
+     MESSAGEBOX( ;
+               "An error has occurred.",  ;
+               "Error")
+ENDIF
+ENDPROC
+**

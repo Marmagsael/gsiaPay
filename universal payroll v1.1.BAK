@@ -1,0 +1,97 @@
+Compiling d:\development\gsia\universalpayroll\gsia office\universalpayroll\forms\sss_r1a.scx
+REPORT FORM 'sss.frx' PREVIEW TO   PRINTER PROMPT NODIALOG
+Error in line 37 of Formset.Pis12.Print_1.Click (record 39): Missing comma (,).
+
+Compiling d:\development\gsia\universalpayroll\gsia office\universalpayroll\forms\frmpagibigcontremit.scx
+REPORT FORM rptPAGIgBIGContRemit   PREVIEW TO PRINTER PROMPT   NODIALOG
+Error in line 27 of Formset.Frm12.Scmdprint1.Click (record 6): Missing comma (,).
+
+Compiling d:\development\gsia\universalpayroll\gsia office\universalpayroll\forms\frmalphalist.scx
+REPORT FORM rptAlphaList PREVIEW   TO PRINTER PROMPT   NODIALOG
+Error in line 224 of Frm12.Scmdprint1.Click (record 5): Missing comma (,).
+
+Compiling d:\development\gsia\universalpayroll\gsia office\universalpayroll\forms\frmaccounttotals.scx
+REPORT FORM rptAcctTotals PREVIEW   TO PRINTER PROMPT NODIALOG   FOR ALLTRIM(isatm) == "1"
+Error in line 267 of Frm12.Scmdprint1.Click (record 13): Missing comma (,).
+REPORT FORM rptAcctTotals1   PREVIEW TO PRINTER PROMPT   NODIALOG FOR   ALLTRIM(isatm) == "0"
+Error in line 273 of Frm12.Scmdprint1.Click (record 13): Missing comma (,).
+
+Compiling d:\development\gsia\universalpayroll\gsia office\universalpayroll\forms\frmsbquota.scx
+REPORT FORM rptSB PREVIEW TO   PRINTER PROMPT NODIALOG
+Error in line 5 of Frm12.Scmdprint1.Click (record 20): Missing comma (,).
+
+Compiling d:\development\gsia\universalpayroll\gsia office\universalpayroll\forms\frmcalculator.scx
+REPORT FORM payslip.frx PREVIEW   TO PRINTER PROMPT   NODIALOG
+Error in line 234 of Frm12.Command2.Click (record 25): Missing comma (,).
+REPORT FORM payslip.frx PREVIEW   TO PRINTER PROMPT   NODIALOG
+Error in line 510 of Frm12.Scmdsave1.Click (record 66): Missing comma (,).
+REPORT FORM rptPYR PREVIEW TO   PRINTER PROMPT NODIALOG   FOR ALLTRIM(trn) ==   ALLTRIM(ALLTRIM(thisform.lbl7.caption))
+Error in line 233 of Frm12.Command9.Click (record 68): Missing comma (,).
+REPORT FORM payslip.frx PREVIEW   TO PRINTER PROMPT   NODIALOG
+Error in line 388 of Frm12.Command5.Click (record 69): Missing comma (,).
+REPORT FORM rptBankAdvise PREVIEW   TO PRINTER PROMPT NODIALOG   FOR  .NOT.   EMPTY(ALLTRIM(acctcode))
+Error in line 188 of Frm12.Command8.Click (record 70): Missing comma (,).
+REPORT FORM rptCashBasis PREVIEW   TO PRINTER PROMPT NODIALOG   FOR   EMPTY(ALLTRIM(acctcode))
+Error in line 192 of Frm12.Command8.Click (record 70): Missing comma (,).
+
+Compiling d:\development\gsia\universalpayroll\gsia office\universalpayroll\forms\payrollx.scx
+REPORT FORM payslip.frx PREVIEW   TO PRINTER PROMPT   NODIALOG
+Error in line 234 of Frm12.Command2.Click (record 25): Missing comma (,).
+REPORT FORM payslip.frx PREVIEW   TO PRINTER PROMPT   NODIALOG
+Error in line 510 of Frm12.Scmdsave1.Click (record 67): Missing comma (,).
+REPORT FORM rptPYR PREVIEW TO   PRINTER PROMPT NODIALOG   FOR ALLTRIM(trn) ==   ALLTRIM(ALLTRIM(thisform.lbl7.caption))
+Error in line 233 of Frm12.Command9.Click (record 76): Missing comma (,).
+
+Compiling d:\development\gsia\universalpayroll\gsia office\universalpayroll\forms\frmpayrollnewx.scx
+SELECT *, !_err=0x1A0F_!  (xshow_, 'I',   1, .NULL.)   AS show_   FROM   curCharOfAcct   INTO CURSOR   curCharOfAcct   READWRITE
+Error in line 43 of Frm12.Grid1.Init (record 5): Command contains unrecognized phrase/keyword.
+SELECT *, !_err=0x1A0F_!  (xshow_, 'I',   1, .NULL.)   AS show_   FROM   curCharOfAcct   INTO CURSOR   curCharOfAcct   READWRITE
+Error in line 40 of Frm12.Combo7.InteractiveChange (record 17): Command contains unrecognized phrase/keyword.
+
+Compiling d:\development\gsia\universalpayroll\gsia office\universalpayroll\forms\frmalphalistsingle.scx
+REPORT FORM rptAlphaList PREVIEW   TO PRINTER PROMPT   NODIALOG
+Error in line 225 of Frm12.Scmdprint1.Click (record 5): Missing comma (,).
+
+Compiling d:\development\gsia\universalpayroll\gsia office\universalpayroll\forms\payroll3.scx
+REPORT FORM payslip.frx PREVIEW     TO PRINTER PROMPT     NODIALOG
+Error in line 433 of PAYROLL3.Command5.Click (record 77): Missing comma (,).
+
+Compiling d:\development\gsia\universalpayroll\gsia office\universalpayroll\forms\payrollnew.scx
+SELECT *, !_err=0x1A0F_!  (xshow_, 'I',   1, .NULL.)   AS show_   FROM   curCharOfAcct   INTO CURSOR   curCharOfAcct   READWRITE
+Error in line 40 of PAYROLLNEW.grdCOA.Init (record 33): Command contains unrecognized phrase/keyword.
+
+Compiling d:\development\gsia\universalpayroll\gsia office\universalpayroll\progs\ftax.prg
+MESSAGEBOX( 'Tax criteria for ' ALLTRIM(xcurpaylst.name) ' is invalid',  "Message")
+Error in line 33: Function name is missing ).
+
+Compiling d:\development\gsia\universalpayroll\gsia office\universalpayroll\forms\payroll2.scx
+REPORT FORM payslip.frx PREVIEW   TO PRINTER PROMPT   NODIALOG
+Error in line 234 of Frm12.Command2.Click (record 25): Missing comma (,).
+REPORT FORM payslip.frx PREVIEW   TO PRINTER PROMPT   NODIALOG
+Error in line 523 of Frm12.Scmdsave1.Click (record 67): Missing comma (,).
+REPORT FORM payslip.frx PREVIEW   TO PRINTER PROMPT   NODIALOG
+Error in line 405 of Frm12.Command5.Click (record 69): Missing comma (,).
+REPORT FORM rptBankAdvise PREVIEW   TO PRINTER PROMPT NODIALOG   FOR  .NOT.   EMPTY(ALLTRIM(acctcode))
+Error in line 189 of Frm12.Command8.Click (record 70): Missing comma (,).
+REPORT FORM rptCashBasis PREVIEW   TO PRINTER PROMPT NODIALOG   FOR   EMPTY(ALLTRIM(acctcode))
+Error in line 193 of Frm12.Command8.Click (record 70): Missing comma (,).
+
+Compiling d:\development\gsia\universalpayroll\gsia office\universalpayroll\forms\frmregistermaster.scx
+REPORT FORM rptPYR PREVIEW TO   PRINTER PROMPT NODIALOG
+Error in line 126 of Frm12.Scmdprint1.Click (record 11): Missing comma (,).
+
+Visual Class Library d:\...\gsia\universalpayroll\gsia office\universalpayroll\class\dits.vcx has the following errors:
+    File NEW.JPG - Undefined
+    File SAVE.JPG - Undefined
+    File BANK.JPG - Undefined
+    File CLIENT.JPG - Undefined
+    File PRINT.JPG - Undefined
+    File DELETE.JPG - Undefined
+    File UPDATE.JPG - Undefined
+    File ATTACHMENT.JPG - Undefined
+    File OTHERS.GIF - Undefined
+    File VOID.JPG - Undefined
+    File FIND.JPG - Undefined
+    File APPROVED.JPG - Undefined
+    File EXIT.JPG - Undefined
+
